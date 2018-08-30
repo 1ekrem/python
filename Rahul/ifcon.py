@@ -6,11 +6,19 @@ if (var==123):
 else:
     print("Not Correct!")
 
-print("########################")
-
+print('\n')
 str = "Welcome"
 if "s" in str:
     print("Sucessful")
 else:
     print("fail")
-print
+
+print('\n')
+
+print("Please enter a number!")
+x=int(input())
+if x>5:
+    print("Not Correct!")
+else:
+    print("This shit crazy!")
+
