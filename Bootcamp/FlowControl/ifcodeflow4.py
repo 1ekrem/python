@@ -1,0 +1,15 @@
+
+age=int(input("How old are you? "))
+
+#if (age >=16) and (age<=65): Another way to write the condition
+# if 15 < age < 66:
+#     print("Have a good day at work!")
+
+if (age < 16) or (age >65):
+    print("Enjoy your free time!")
+else:
+    print("Have a good day at work!")
+
+
+if (some_condition) or (some_weird_function_that_does_stuff()):
+    #do something    
