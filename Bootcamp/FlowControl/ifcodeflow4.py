@@ -9,7 +9,3 @@ if (age < 16) or (age >65):
     print("Enjoy your free time!")
 else:
     print("Have a good day at work!")
-
-
-if (some_condition) or (some_weird_function_that_does_stuff()):
-    #do something    
