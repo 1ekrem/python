@@ -33,6 +33,7 @@ print("The number is :"+str(random_number))
 even_odd_rate=2
 time.sleep(1)
 
+
 if (winning_logic==0) and bet_name == "even":
     print("You won!")
     bet_total = bet*even_odd_rate
@@ -51,4 +52,4 @@ else:
     deposit=deposit-bet
     print("You lost: $"+str(bet)+"!")
     print("Your total is: $"+str(deposit)+".")
-sys.exit()
+    sys.exit()
