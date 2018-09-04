@@ -52,4 +52,3 @@ else:
     deposit=deposit-bet
     print("You lost: $"+str(bet)+"!")
     print("Your total is: $"+str(deposit)+".")
-    sys.exit()
