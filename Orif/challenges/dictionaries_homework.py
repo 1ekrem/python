@@ -21,7 +21,8 @@ city_pop_list={ "City": "Population",
 "Paris": 5*20000*6000,
 "Istanbul": 9*1000*20000,
 "Seoul": 9*2000*2000,
-"New York": 8*1500*8000
+"New York": 8*1500*8000,
+"New Jersey": 8*1500*8000
 }
 
 print()
@@ -30,7 +31,7 @@ for keys,values in city_pop_list.items():
     if keys == "City":
         print(keys, ": ", values)
         print("----------------------")
-        continue
+        #continue
     else:
         print(keys, ": ", values)
 
