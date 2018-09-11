@@ -23,3 +23,7 @@ print(metallica2)
 print("Tuple is created with ''x'")
 print("list is created with ['' ''] ")
 print("Range is created with ('')")
+
+#Tuples are expected to hold heterogeneous items like, string, string, int
+
+
