@@ -25,6 +25,7 @@ city_pop_list={ "City": "Population",
 "New Jersey": 8*1500*8000
 }
 
+
 print()
 print("Formatted Print")
 for keys,values in city_pop_list.items():
