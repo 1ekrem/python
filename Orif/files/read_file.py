@@ -1,4 +1,4 @@
-with open("/Users/ersekrem/Documents/ClassAso/Orif/files/read_file.py") as source:
-    lines = source.readline()
+with open("C:\\AsoPython\\Orif\\homeExercise\\read_file.txt") as source:
+    lines = source.readlines()
     for line in lines:
-        print(line.rstrip())#
+        print(line.rstrip())

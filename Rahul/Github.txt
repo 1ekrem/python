@@ -1,9 +1,0 @@
-Put this in the terminal so you can push your code into GitHub repository
-
-
-echo "# python" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/1ekrem/python.git
-git push -u origin master
