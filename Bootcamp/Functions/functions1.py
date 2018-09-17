@@ -1,3 +1,5 @@
+
+
 def python_food():
     width = 80
     text = "Spam and eggs"
@@ -14,3 +16,6 @@ centre_text("spam and ")
 centre_text("spam and eggs")
 centre_text("spam, spam and eggs")
 centre_text("spam, spam, spam and eggs")
+
+
+
