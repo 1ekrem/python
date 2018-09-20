@@ -1,3 +1,8 @@
+# Open an existing worksheet
+# Add a value
+# add other values
+# save
+
 import openpyxl
 
 wb = openpyxl.load_workbook("sample.xlsx")
