@@ -7,5 +7,3 @@ ws = wb.active
 
 grouping_cells=['A1']
 
-for value in ws['B']:
-
