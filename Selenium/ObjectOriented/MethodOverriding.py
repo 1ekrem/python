@@ -23,6 +23,8 @@ class BMW(Car):
         print("You just created the BMW instance")
 
     def drive(self):
+        super.drive() #'Super' keyword calls the main drive function from the main class. 
+                #Car class is the main class, BMW is the child class. 
         print("This method has been overriden! You are driving a BMW, Enjoy...")
     
     def headup_display(self):

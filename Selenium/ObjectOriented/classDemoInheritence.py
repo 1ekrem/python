@@ -19,8 +19,6 @@ class BMW(Car):
         Car.__init__(self)
         print("You just created the BMW instance")
 
-#B
-
 c = Car()
 
 c.start()
