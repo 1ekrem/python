@@ -8,11 +8,11 @@ class FinViz(object):
 
         driver = webdriver.Firefox()
         
-        baseUrl = 'https://finviz.com/'
+        baseUrl = 'https://letskodeit.teachable.com/'
         driver.get(baseUrl)
 
-        searchBarElement = driver.find_element_by_css_selector('input[placeholder = "Search ticker, company or profile"]')
-        searchBarElement.send_keys("TSLA", Keys.ENTER)
+        searchBarElement = driver.find_element_by_xpath("//a[@class='btn-primary btn-hg text-center']")
+        searchBarElement.click()
 
 
 
