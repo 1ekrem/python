@@ -23,7 +23,6 @@ class BrowserInteractions(object):
 
         SecondUrl = ("https://www.google.com/")
         driver.get(SecondUrl)
-
         print(SecondUrl.title)
 
         driver.back()
