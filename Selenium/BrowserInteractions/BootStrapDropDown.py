@@ -25,18 +25,18 @@ class DropdownElements(object):
         size = len(List)
         print(size)
 
-        # #Print and Select a particular name
-        # for list_item in List:
-        #     print(list_item.text)
+        #Print and Select a particular name
+        for list_item in List:
+            print(list_item.text)
 
-        #     if list_item.text.__contains__("Python"):
-        #         list_item.click()
-        #         break
+            if list_item.text.__contains__("Python"):
+                list_item.click()
+                break
         
         #Make sure you don't select the already selected options
-        for list_items in List:
-            if list_items.is_selected() is False:
-                list_items.click()
+        # for list_items in List:
+        #     if list_items.is_selected() is False:
+        #         list_items.click()
 
 ff = DropdownElements()
 ff.test1()

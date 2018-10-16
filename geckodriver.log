@@ -2475,3 +2475,1680 @@ use no navigation has been detected
 [GPU 11940,
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1539052604878	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.ShAC1zjIlpV4"
+1539052613152	Marionette	INFO	Listening on port 51703
+1539052613233	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539052613336	Marionette	DEBUG	[6442450945] Frame script loaded
+1539052613359	Marionette	DEBUG	[6442450945] Frame script registered
+1539052613474	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539052613884	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539052615795	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/p/practice
+1539052618790	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/p/practice
+1539052620905	Marionette	INFO	Stopped listening on port 51703
+[Parent 13628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10696, Ch[Parent 13628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [GPU 12160, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539053047997	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.82KcKvWD7zsu"
+1539053051915	Marionette	INFO	Listening on port 52412
+1539053052344	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539053052394	Marionette	DEBUG	[6442450945] Frame script loaded
+1539053052397	Marionette	DEBUG	[6442450945] Frame script registered
+1539053055424	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539053055867	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539053057104	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/p/practice
+1539053059113	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/p/practice
+1539053059168	Marionette	INFO	Stopped listening on port 52412
+[Parent 17368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1084[Child 1144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Parent 17368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 153[GPU 15700, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539128813628	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.GkHcbG2Tk1be"
+1539128821531	Marionette	INFO	Listening on port 64604
+1539128822106	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539128822235	Marionette	DEBUG	[6442450945] Frame script loaded
+1539128822260	Marionette	DEBUG	[6442450945] Frame script registered
+1539128825297	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539128825740	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539128827454	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/p/practice
+1539128829893	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/p/practice
+1539128829958	Marionette	INFO	Stopped listening on port 64604
+[Child 16060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/buil[Child 5800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5800, Chrome_C[Parent 9164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539131633770	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.OY1vQMEOinFz"
+1539131639030	Marionette	INFO	Listening on port 52415
+1539131639217	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539131639434	Marionette	DEBUG	[6442450945] Frame script loaded
+1539131639440	Marionette	DEBUG	[6442450945] Frame script registered
+1539131639638	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539131640201	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539131641697	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/p/practice
+1539131647091	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/p/practice
+[Parent 10896, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12[Parent 10896, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539131658392	Marionette	INFO	Stopped listening on port 52415
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539131669264	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.PFa8jbWDiBqo"
+1539131673128	Marionette	INFO	Listening on port 52517
+1539131673622	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539131673774	Marionette	DEBUG	[6442450945] Frame script loaded
+1539131673788	Marionette	DEBUG	[6442450945] Frame script registered
+1539131673887	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539131674220	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539131675822	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/p/practice
+1539131678125	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/p/practice
+[Child 10688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539131692768	Marionette	INFO	Stopped listening on port 52517
+[GPU 13076,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539131747266	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.Vs6e5nu7EUYG"
+1539131750760	Marionette	INFO	Listening on port 52680
+1539131751119	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539131751180	Marionette	DEBUG	[6442450945] Frame script loaded
+1539131751186	Marionette	DEBUG	[6442450945] Frame script registered
+1539131751231	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539131751602	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539131752771	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/p/practice
+1539131754635	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/p/practice
+[Child 11960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15896, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539131834385	Marionette	INFO	Stopped listening on port 52680
+1539131837466	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.V9NMEFE1QvyZ"
+1539131840971	Marionette	INFO	Listening on port 52862
+1539131841327	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539131841434	Marionette	DEBUG	[6442450945] Frame script loaded
+1539131841438	Marionette	DEBUG	[6442450945] Frame script registered
+1539131841477	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539131841846	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539131843099	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/p/practice
+1539131844843	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/p/practice
+1539131854883	Marionette	INFO	Stopped listening on port 52862
+[Child 11724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/c[Chrome/common/ipc_channel_win.cc, lhild 15488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346i
+ne 346
+[Child [C15488,hi[Parent 7900, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 11028, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539134102614	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.iIIV4Xre0vqJ"
+1539134108483	Marionette	INFO	Listening on port 56273
+1539134108816	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539134108930	Marionette	DEBUG	[6442450945] Frame script loaded
+1539134108935	Marionette	DEBUG	[6442450945] Frame script registered
+1539134109004	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539134109631	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539134111622	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/courses
+1539134159166	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/courses
+1539134159168	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/courses
+1539134159574	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/courses
+1539134160129	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/courses
+1539134160200	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539134160200	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539134171080	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/courses
+1539134171082	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/courses
+1539134171235	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/courses
+1539134171788	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1539134171852	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539134171853	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539134172437	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134172748	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/
+1539134173145	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://learn.letskodeit.com/
+1539134173149	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/
+1539134174938	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134175047	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539134175048	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539134175429	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134175677	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134177072	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134177075	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134177683	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/?sa=eyJ1c2VyX2lkIjoxNTExNDQ4LCJleHBpcmVzX2F0IjoxNTM5MTM0Nzc2LjU1ODQ2MTIsInNjaG9vbF9pZCI6NDIyOTksImF1dGhlbnRpY2F0aW9uX3Rva2VuIjoieWFKTDRubzZFSDNlemJxZHJBVGp6Tmpoa3hGQnlldVV0USJ9--e1e8ff2ddd49066353e40c4ee28b495f2188cfc0
+1539134177772	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1539134177772	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1539134177773	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1539134209236	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/
+1539134209300	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/
+1539134209376	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1539134209378	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1539134209379	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450945
+[Parent 10256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539134209749	Marionette	INFO	Stopped listening on port 56273
+[GPU 16112, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539134231588	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.Zost3SecNmNY"
+1539134234834	Marionette	INFO	Listening on port 56540
+1539134234866	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539134234935	Marionette	DEBUG	[6442450945] Frame script loaded
+1539134234954	Marionette	DEBUG	[6442450945] Frame script registered
+1539134235037	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539134235574	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539134236776	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1539134238042	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134238346	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539134240201	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134241679	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134241682	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134242304	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/?sa=eyJ1c2VyX2lkIjoxNTExNDQ4LCJleHBpcmVzX2F0IjoxNTM5MTM0ODQwLjkyOTEyMDMsInNjaG9vbF9pZCI6NDIyOTksImF1dGhlbnRpY2F0aW9uX3Rva2VuIjoieWFKTDRubzZFSDNlemJxZHJBVGp6Tmpoa3hGQnlldVV0USJ9--80458d5100057fee2e5456d659be545a7189efa7
+1539134305035	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134306565	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539134306566	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539134307098	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+console.error: "Error while calling actor 'pagestyle's method 'getUsedFontFaces'" ""
+console.error: "getUsedFontFaces@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:296:19\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1159:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1783:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:735:7\n"
+console.error: "Could not get the list of font families" "unknownError"
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+[Child 6440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c1539134565224	Marionette	INFO	Listening on port 57107
+1539134565279	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539134565336	Marionette	DEBUG	[6442450945] Frame script loaded
+1539134565341	Marionette	DEBUG	[6442450945] Frame script registered
+1539134565421	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539134565937	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539134567247	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1539134568171	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134568475	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539134570416	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134571715	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134571717	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134572323	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/?sa=eyJ1c2VyX2lkIjoxNTExNDQ4LCJleHBpcmVzX2F0IjoxNTM5MTM1MTcxLjA5NTY4OTMsInNjaG9vbF9pZCI6NDIyOTksImF1dGhlbnRpY2F0aW9uX3Rva2VuIjoieWFKTDRubzZFSDNlemJxZHJBVGp6Tmpoa3hGQnlldVV0USJ9--29a6bcbae91f737a8a77c522497c113ddc7205ce
+1539134572798	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134574205	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539134574205	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539134574725	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539134575179	Marionette	INFO	Stopped listening on port 57107
+[Parent 2348, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14[Child 15204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15204, Chrome_ChildThread] W[Parent 2348, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 109[GPU 3168, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539134616151	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.LHtNjDOAtnj6"
+1539134619136	Marionette	INFO	Listening on port 57255
+1539134619429	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539134619496	Marionette	DEBUG	[6442450945] Frame script loaded
+1539134619500	Marionette	DEBUG	[6442450945] Frame script registered
+1539134619542	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539134619846	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539134621067	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1539134624714	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134624948	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/
+1539134625245	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://learn.letskodeit.com/
+1539134625249	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/
+1539134626265	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134626336	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539134626338	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539134626711	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134626981	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134628528	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134628535	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134629103	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/?sa=eyJ1c2VyX2lkIjoxNTExNDQ4LCJleHBpcmVzX2F0IjoxNTM5MTM1MjI3LjczMzg0MDIsInNjaG9vbF9pZCI6NDIyOTksImF1dGhlbnRpY2F0aW9uX3Rva2VuIjoieWFKTDRubzZFSDNlemJxZHJBVGp6Tmpoa3hGQnlldVV0USJ9--a3cc9befa66a81adca0d611dc06a1f0872d88141
+1539134629207	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539134629208	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539134629208	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539134629777	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134630869	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1539134630870	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1539134631188	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539134631956	Marionette	INFO	Stopped listening on port 57255
+[Child 13692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13[Parent 976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 56[GPU 8264, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539134703079	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.BAzYw3j3ghhp"
+1539134706899	Marionette	INFO	Listening on port 57448
+1539134706929	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539134706982	Marionette	DEBUG	[6442450945] Frame script loaded
+1539134707014	Marionette	DEBUG	[6442450945] Frame script registered
+1539134707073	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539134708952	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539134710095	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1539134710907	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134711212	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539134713172	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134714259	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134714260	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134714889	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/?sa=eyJ1c2VyX2lkIjoxNTExNDQ4LCJleHBpcmVzX2F0IjoxNTM5MTM1MzEzLjg3NjAzOSwic2Nob29sX2lkIjo0MjI5OSwiYXV0aGVudGljYXRpb25fdG9rZW4iOiJ5YUpMNG5vNkVIM2V6YnFkckFUanpOamhreEZCeWV1VXRRIn0%3D--735d2d64e016f00e9ded17e5a540512e1b6aafc6
+1539134715399	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134717233	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539134718087	Marionette	INFO	Stopped listening on port 57448
+[Parent 16828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc[Parent 16828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3340, Chrome_Chi[GPU 11080, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539134793056	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.inhuP3oqrFyI"
+1539134796000	Marionette	INFO	Listening on port 57645
+1539134796343	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539134796410	Marionette	DEBUG	[6442450945] Frame script loaded
+1539134796414	Marionette	DEBUG	[6442450945] Frame script registered
+1539134796459	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539134796822	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539134797972	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1539134798837	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134799047	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/
+1539134799238	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://learn.letskodeit.com/
+1539134799242	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/
+1539134800213	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134800273	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539134800283	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539134800624	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134800888	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134802046	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134802048	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134802645	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/?sa=eyJ1c2VyX2lkIjoxNTExNDQ4LCJleHBpcmVzX2F0IjoxNTM5MTM1NDAxLjUzMjc2MzcsInNjaG9vbF9pZCI6NDIyOTksImF1dGhlbnRpY2F0aW9uX3Rva2VuIjoieWFKTDRubzZFSDNlemJxZHJBVGp6Tmpoa3hGQnlldVV0USJ9--ca0745170a7d16305ca90cf31a59df1dd965db19
+1539134802762	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539134802763	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539134802764	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1539134803258	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134804713	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 10264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1539134819789	Marionette	INFO	Stopped listening on port 57645
+[GPU 571
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539134825356	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.3ozSUlF6uDgr"
+1539134828313	Marionette	INFO	Listening on port 57762
+1539134828600	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539134828680	Marionette	DEBUG	[6442450945] Frame script loaded
+1539134828684	Marionette	DEBUG	[6442450945] Frame script registered
+1539134828747	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539134829231	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539134830483	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1539134831369	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134831572	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/
+1539134831868	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://learn.letskodeit.com/
+1539134831871	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/
+1539134832833	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134832886	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539134832887	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539134833263	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134833535	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134835517	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134835519	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539134836088	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/?sa=eyJ1c2VyX2lkIjoxNTExNDQ4LCJleHBpcmVzX2F0IjoxNTM5MTM1NDM1LjEyNDE1ODEsInNjaG9vbF9pZCI6NDIyOTksImF1dGhlbnRpY2F0aW9uX3Rva2VuIjoieWFKTDRubzZFSDNlemJxZHJBVGp6Tmpoa3hGQnlldVV0USJ9--999a28cc83f3802725c25bc400d97ad1cb96d66d
+1539134836201	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539134836201	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539134836201	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539134836486	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539134838041	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539134838888	Marionette	INFO	Stopped listening on port 57762
+[Child 17320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17JavaScript error: https://fast.wistia.com/assets/external/E-v1.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+[Parent 9924, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 14524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, li
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ne 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9924, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 3940, Chrome
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539192848148	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.AO6ZFMGh2UBi"
+1539192853137	Marionette	INFO	Listening on port 51388
+1539192853601	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539192853720	Marionette	DEBUG	[6442450945] Frame script loaded
+1539192853724	Marionette	DEBUG	[6442450945] Frame script registered
+1539192853755	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539192855315	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539192857256	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1539192858729	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539192859051	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 9936, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9936, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11280, Chrome_ChildThread][Parent 9936, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539192975362	Marionette	INFO	Stopped listening on port 51388
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539192991268	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.VQN9ykB4GbK9"
+1539192994534	Marionette	INFO	Listening on port 51655
+1539192994661	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539192994938	Marionette	DEBUG	[6442450945] Frame script loaded
+1539192994958	Marionette	DEBUG	[6442450945] Frame script registered
+1539192995008	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539192996288	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539192997526	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1539192998556	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539192998845	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/
+1539192999273	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://learn.letskodeit.com/
+1539192999277	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/
+1539193000353	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539193000435	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539193000436	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539193001095	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+[Parent 480, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromiu[Parent 480, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7792, Chrome_ChildT1539194716294	Marionette	INFO	Stopped listening on port 51655
+[GPU 8268, Chrome_ChildThread] WARNING
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+for https://learn.letskodeit.com/
+1539193168232	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/
+1539193173347	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 2820, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539193213980	Marionette	INFO	Stopped listening on port 51952
+[GPU 9856, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539194721971	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.wPPBNuodUrT2"
+1539194725889	Marionette	INFO	Listening on port 54147
+1539194726348	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539194726677	Marionette	DEBUG	[6442450945] Frame script loaded
+1539194726692	Marionette	DEBUG	[6442450945] Frame script registered
+1539194726766	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539194727322	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539194729489	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1539194730675	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1539194730843	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/
+1539194731171	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://learn.letskodeit.com/
+1539194731172	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/
+1539194732333	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1539194732439	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539194732440	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539194732920	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+[Parent 7736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_[Child 8852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7736, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539194745773	Marionette	INFO	Stopped listening on port 54147
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539196012235	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.cTWDvvUCRgfv"
+1539196016995	Marionette	INFO	Listening on port 56284
+1539196017177	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539196017523	Marionette	DEBUG	[4294967297] Frame script loaded
+1539196017585	Marionette	DEBUG	[4294967297] Frame script registered
+1539196017874	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1539196018321	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1539196021157	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.expedia.com/
+1539196024975	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967301
+1539196024975	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967302
+1539196024976	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967303
+1539196024976	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967304
+1539196024976	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967305
+1539196024977	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967306
+1539196024978	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967307
+1539196026157	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967308
+1539196026284	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967309
+1539196026290	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967310
+1539196026298	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967311
+1539196026305	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967312
+1539196026312	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967313
+1539196026332	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967314
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 22: Error: 4101 (The given Experiment details was null)
+1539196033308	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.expedia.com/
+1539196034434	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+[Parent 7904, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chr[Parent 7904, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7904, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11539196078110	Marionette	INFO	Stopped listening on port 56284
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539196083384	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.GYCbtH1APsYf"
+1539196087570	Marionette	INFO	Listening on port 56558
+1539196087761	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539196087923	Marionette	DEBUG	[6442450945] Frame script loaded
+1539196087927	Marionette	DEBUG	[6442450945] Frame script registered
+1539196088034	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539196088635	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539196089760	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.expedia.com/
+1539196093099	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539196093099	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539196093100	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539196093101	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1539196093101	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539196093102	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539196093103	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539196093872	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539196093883	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1539196093891	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1539196093904	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539196093910	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539196093935	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539196093936	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 22: Error: 4101 (The given Experiment details was null)
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+1539196112355	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/
+1539196113295	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 12432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 12432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539196176609	Marionette	INFO	Stopped listening on port 56558
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539196181225	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.N6VDVaKhjtUm"
+1539196185513	Marionette	INFO	Listening on port 56907
+1539196185658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539196185871	Marionette	DEBUG	[6442450945] Frame script loaded
+1539196185876	Marionette	DEBUG	[6442450945] Frame script registered
+1539196186022	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539196186326	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539196187198	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.expedia.com/
+1539196190703	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539196190704	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539196190704	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539196190704	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1539196190705	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539196190705	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539196190706	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539196191733	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539196191742	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1539196191742	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1539196191758	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539196191758	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539196191776	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539196191776	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1539196198234	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/
+1539196199197	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 22: Error: 4101 (The given Experiment details was null)
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://www.expedia.com
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://www.expedia.com
+console.error: "TypeError: currentNode is undefined: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11\nonMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: currentNode is undefined: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11
+onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+[Parent 3868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 3868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: "stylesheets actor: fetch failed for https://b.travel-assets.com/bundles/mercury-web/mercury/styles-8224df2380fef64b9ef02a1dd3c01632-min.css, using system principal instead."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "Failed to open input source 'https://b.travel-assets.com/bundles/mercury-web/mercury/styles-8224df2380fef64b9ef02a1dd3c01632-min.css'"
+console.error: "mainThreadFetch@resource://devtools/shared/base-loader.js -> resource://devtools/shared/DevToolsUtils.js:645:5\nfetchStylesheet@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:256:20\n"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x560027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 12360, Chro
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+me_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 12360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/b
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+uild/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2E00B1,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 3868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12992, Chrome_ChildThread] WARNING: pipe e1539196223237	Marionette	INFO	Stopped listening on port 56907
+[GPU 1892, Chr1539196256113	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.LsEA4cU3Lr4j"
+1539196260217	Marionette	INFO	Listening on port 57224
+1539196260499	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539196260639	Marionette	DEBUG	[6442450945] Frame script loaded
+1539196260642	Marionette	DEBUG	[6442450945] Frame script registered
+1539196260721	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539196260987	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539196262070	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.expedia.com/
+1539196265805	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539196265805	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539196265806	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539196265806	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1539196265806	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539196265807	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539196265808	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539196266642	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539196266677	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1539196266681	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1539196266689	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539196266703	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539196266704	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539196266717	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 22: Error: 4101 (The given Experiment details was null)
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+1539196282907	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/
+1539196283892	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://www.expedia.com
+console.error: (new TypeError("currentPanel is undefined", "resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js", 2788))
+console.error: (new Error("Connection closed, pending request to server1.conn0.child1/domwalker26, type children failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1332:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1486:14\n_getVisibleChildren@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:1855:12\n_updateChildren@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:1774:7\n_expandContainer@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:1230:12\nexpandNode@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:1245:12\n_deferredOpen@chrome://devtools/content/inspector/inspector.js:289:13\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1275))
+console.error: "Could not get the list of font families" (new Error("Connection closed, pending request to server1.conn0.child1/pagestyle28, type getUsedFontFaces failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1332:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1486:14\ngetUsedFontFamilies/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:141:31\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1275))
+[Child 5536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/[Child 3480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 12868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1539196301208	Marionette	INFO	Stopped listening on port 57224
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539196376783	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.P6ap7U43V3m1"
+1539196380387	Marionette	INFO	Listening on port 57612
+1539196380621	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539196380797	Marionette	DEBUG	[6442450945] Frame script loaded
+1539196380816	Marionette	DEBUG	[6442450945] Frame script registered
+1539196380936	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539196386198	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539196387238	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.expedia.com/
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 22: Error: 4101 (The given Experiment details was null)
+1539196392702	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539196392702	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539196392703	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539196392705	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1539196392706	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539196392709	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539196392715	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539196394288	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539196394296	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1539196394304	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1539196394315	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539196394331	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539196394340	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539196394351	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-800330014, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-800330014, line 74: unreachable code after return statement
+1539196400335	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/
+1539196401299	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 11468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/[Parent 11468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 12932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 11468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539196691375	Marionette	INFO	Stopped listening on port 57612
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+42450959
+1539196586246	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539196586254	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539196586264	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-800330014, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-800330014, line 74: unreachable code after return statement
+1539196595548	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/
+1539196596515	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+console.error: (new TypeError("currentPanel is undefined", "resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js", 2788))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9768, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11539196659054	Marionette	INFO	Stopped listening on port 58059
+[GPU 2508, Chrome_ChildTh
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539196742213	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.mDZinsgU3lvG"
+1539196745882	Marionette	INFO	Listening on port 58525
+1539196746071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539196746239	Marionette	DEBUG	[6442450945] Frame script loaded
+1539196746303	Marionette	DEBUG	[6442450945] Frame script registered
+1539196746472	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539196746866	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539196748428	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.expedia.com/
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 22: Error: 4101 (The given Experiment details was null)
+1539196753717	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539196753717	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539196753718	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539196753719	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1539196753719	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539196753722	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539196753723	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539196755416	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539196755433	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1539196755453	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1539196755469	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539196755482	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539196755506	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539196755519	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+1539196762322	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451029
+1539196762967	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451031
+1539196762967	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451033
+1539196762969	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451035
+1539196762972	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451037
+1539196765709	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/
+1539196766865	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://www.expedia.com
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800"  data: no]
+Stack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11
+_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38
+_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12
+_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21
+DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 800, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: _docShellToWindow :: line 800\"  data: no]\nStack: _docShellToWindow@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:800:11\n_docShellsToWindows/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:38\n_docShellsToWindows@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:827:12\n_notifyDocShellsUpdate@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:831:21\nDebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1683:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 800, column: 0"
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1686, column: 0
+console.error: "Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... \"Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]\"  nsresult: \"0x80004002 (NS_NOINTERFACE)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1686\"  data: no]\nStack: DebuggerProgressListener.prototype.onStateChange<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:1686:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1686, column: 0"
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:797:5\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1159:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1783:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:735:7\n"
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+console.error: "Protocol error (unknownError): node is null"
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://www.expedia.com
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1888"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1888:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:519:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:439:5
+Line: 1888, column: 0
+console.error: "Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1888\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1888:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nNetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:519:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nonStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:439:5\nLine: 1888, column: 0"
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1888"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1888:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:664:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:621:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:715:7
+Line: 1888, column: 0
+console.error: "Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1888\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1888:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:664:5\nonStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:621:7\nonInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:715:7\nLine: 1888, column: 0"
+[Parent 3572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 3572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 8164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 8164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+cc, line 346
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 3572, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539197181032	Marionette	INFO	Stopped listening on port 58525
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+r-window-destroyed for 6442451053
+1539197158676	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451054
+1539197158681	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451055
+1539197158689	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451056
+1539197161530	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451106
+1539197162460	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451112
+1539197162477	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451115
+JavaScript error: https://ad.doubleclick.net/ddm/trackimpj/N6333.218.EXPEDIA/B21268636.223195926;dc_trk_aid=421317548;dc_trk_cid=95671978;u=2277711|9935496-x_;ord=1539197161;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?&207797044, line 1: TypeError: document.body is null
+1539197167595	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451138
+1539197167920	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451140
+1539197171770	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F19%2F2018&endDate=10%2F19%2F2018&mode=search&trip=roundtr ... =from%3AJFK%2Cto%3ASFO%2Cdeparture%3A10%2F19%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY
+1539197173779	Marionette	INFO	Stopped listening on port 59577
+[Parent 10020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7308, Chrome_ChildThread] WARNING: pipe IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 7972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539198107096	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.q0CJDza7T5aT"
+1539198112703	Marionette	INFO	Listening on port 62057
+1539198113147	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539198113305	Marionette	DEBUG	[6442450945] Frame script loaded
+1539198113312	Marionette	DEBUG	[6442450945] Frame script registered
+1539198113450	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539198113837	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539198116324	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.expedia.com/
+1539198119438	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539198119439	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539198119439	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539198119440	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1539198119440	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539198119441	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539198119442	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 22: Error: 4101 (The given Experiment details was null)
+1539198120113	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539198120119	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1539198120125	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1539198120126	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539198120133	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539198120143	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539198120152	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+1539198130236	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/
+1539198131438	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539198133790	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.expedia.com/
+1539198134795	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.expedia.com/
+1539198134822	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.expedia.com/
+1539198135205	Marionette	DEBUG	[6442451050] Frame script loaded
+1539198135206	Marionette	DEBUG	[6442451050] Frame script registered
+1539198135269	Marionette	DEBUG	[6442451054] Frame script loaded
+1539198135285	Marionette	DEBUG	[6442451054] Frame script registered
+1539198135453	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451050
+1539198135809	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451022
+1539198135810	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1539198135811	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451031
+1539198135812	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1539198135813	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1539198135813	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1539198135814	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450972
+1539198135814	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1539198135815	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1539198135815	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451024
+1539198135816	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1539198135816	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451033
+1539198135817	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450978
+1539198135817	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451011
+1539198135817	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451020
+1539198135818	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451009
+1539198135818	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451029
+1539198135818	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450997
+1539198135818	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450998
+1539198135819	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1539198135819	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451026
+1539198135819	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1539198135820	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451035
+1539198135820	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450982
+1539198135820	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1539198135820	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1539198135821	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451006
+1539198135821	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451042
+1539198135821	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451045
+1539198135822	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451027
+1539198137414	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F18%2F2018&endDate=10%2F18%2F2018&mode=search&trip=roundtr ... =from%3AJFK%2Cto%3ASFO%2Cdeparture%3A10%2F18%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY
+1539198141476	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451060
+1539198141476	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451061
+1539198141476	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451062
+1539198142181	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451070
+1539198143544	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451063
+1539198143564	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451064
+1539198143565	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451065
+1539198144105	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451071
+1539198147103	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451117
+1539198147113	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451119
+1539198147746	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451047
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-800330014, line 74: unreachable code after return statement
+JavaScript error: https://ad.doubleclick.net/ddm/trackimpj/N6333.218.EXPEDIA/B21268636.223195926;dc_trk_aid=421317548;dc_trk_cid=95671978;u=2277711|9935496-x_;ord=1539198145;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?&698896117, line 1: TypeError: document.body is null
+1539198149566	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451151
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-800330014, line 74: unreachable code after return statement
+JavaScript error: https://b.travel-assets.com/datacapture/2/js/analytics-core-bundle-min.js, line 22: Error: 4101 (The given Experiment details was null)
+1539198153133	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451159
+1539198153159	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451161
+1539198156485	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F18%2F2018&endDate=10%2F18%2F2018&mode=search&trip=roundtr ... =from%3AJFK%2Cto%3ASFO%2Cdeparture%3A10%2F18%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 2428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 2428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2780, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 2780, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 2780, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 2780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2780, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 2780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build1539198782173	Marionette	INFO	Stopped listening on port 62057
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+nette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451021
+1539198644290	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451013
+1539198644291	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451032
+1539198644291	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450993
+1539198644291	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450994
+1539198644292	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1539198644296	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451025
+1539198644297	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1539198644298	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451036
+1539198644298	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450997
+1539198644299	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451048
+1539198644299	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451046
+1539198644299	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1539198644300	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450998
+1539198644300	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450982
+1539198644301	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1539198649992	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451050
+1539198650234	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F18%2F2018&endDate=10%2F18%2F2018&mode=search&trip=roundtr ... =from%3AJFK%2Cto%3ASFO%2Cdeparture%3A10%2F18%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY
+1539198660109	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451061
+1539198660207	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451062
+1539198660207	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451063
+1539198660208	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451064
+1539198662526	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451065
+1539198662528	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451066
+1539198662544	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451067
+1539198662560	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451068
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+1539198666721	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451100
+1539198666748	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451102
+1539198666756	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451104
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+1539198675582	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451160
+1539198675683	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451162
+1539198677668	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451166
+1539198678506	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F18%2F2018&endDate=10%2F18%2F2018&mode=search&trip=roundtr ... =from%3AJFK%2Cto%3ASFO%2Cdeparture%3A10%2F18%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.1539198787369	Marionette	INFO	Listening on port 63571
+1539198787504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539198787670	Marionette	DEBUG	[6442450945] Frame script loaded
+1539198787696	Marionette	DEBUG	[6442450945] Frame script registered
+1539198787890	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539198788210	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539198789404	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.expedia.com/
+1539198793423	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539198793425	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1539198793425	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539198793426	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1539198793426	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539198793433	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539198793549	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539198794133	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539198794136	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1539198794148	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1539198794155	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539198794163	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539198794168	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539198794169	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+JavaScript error: https://a.travel-assets.com/datacapture/2/js/dctk.js, line 22: Error: 4101 (The given Experiment details was null)
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122065650-1, line 74: unreachable code after return statement
+1539198804117	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/
+1539198805218	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539198810848	Marionette	DEBUG	[6442451045] Frame script loaded
+1539198810906	Marionette	DEBUG	[6442451045] Frame script registered
+1539198811276	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.expedia.com/
+1539198811427	Marionette	DEBUG	[6442451049] Frame script loaded
+1539198811430	Marionette	DEBUG	[6442451049] Frame script registered
+1539198811511	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451045
+1539198812496	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.expedia.com/
+1539198812509	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.expedia.com/
+1539198813666	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1539198813667	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1539198813667	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450996
+1539198813668	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450970
+1539198813668	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450972
+1539198813669	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1539198813670	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1539198813670	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451026
+1539198813672	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451011
+1539198813674	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451032
+1539198813674	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450978
+1539198813683	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451021
+1539198813685	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451024
+1539198813686	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451005
+1539198813686	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451030
+1539198813687	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451000
+1539198813690	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451001
+1539198813691	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1539198813691	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451010
+1539198813692	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1539198813692	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451008
+1539198813693	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451028
+1539198813695	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450982
+1539198813700	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450992
+1539198813701	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451015
+1539198813701	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1539198813701	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451040
+1539198813702	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451038
+1539198815822	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F18%2F2018&endDate=10%2F18%2F2018&mode=search&trip=roundtr ... =from%3AJFK%2Cto%3ASFO%2Cdeparture%3A10%2F18%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY
+1539198816658	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451042
+1539198820039	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451062
+1539198820039	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451063
+1539198820039	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451064
+1539198820039	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451065
+1539198821974	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451091
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-800330014, line 74: unreachable code after return statement
+1539198822311	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451067
+1539198822318	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451068
+1539198822320	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451069
+1539198823282	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451105
+1539198823710	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451111
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-800330014, line 74: unreachable code after return statement
+JavaScript error: https://ad.doubleclick.net/ddm/trackimpj/N6333.218.EXPEDIA/B21268636.223195926;dc_trk_aid=421317548;dc_trk_cid=95671978;u=2277711|9935496-x_;ord=1539198824;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?&997974967, line 1: TypeError: document.body is null
+1539198828726	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451142
+1539198828776	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451144
+1539198846768	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F18%2F2018&endDate=10%2F18%2F2018&mode=search&trip=roundtr ... =from%3AJFK%2Cto%3ASFO%2Cdeparture%3A10%2F18%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY
+[Parent 12456, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 12456, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 12456, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539204106324	Marionette	INFO	Stopped listening on port 63571
+c_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2568, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539198782077	Marionette	INFO	Stopped listening on port 63052
+[GPU 1964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
