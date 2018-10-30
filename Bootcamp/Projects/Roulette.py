@@ -28,7 +28,7 @@ print()
 
 print("The ball is spinning...")
 time.sleep(2)
-print("The number is :"+str(random_number))
+print("The number is :"+str(random_number))  
 
 even_odd_rate=2
 time.sleep(1)
