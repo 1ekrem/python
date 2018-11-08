@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from AutomationFramework.base.selenium-driver import SeleniumDriver1
+from AutomationFramework.base.selenium_driver import SeleniumDriver
 
 class LoginPage():
     

@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 
-class SeleniumDriver1():
+class SeleniumDriver():
 
     def __init__(self, driver):
         self.driver = driver
@@ -38,15 +38,6 @@ class SeleniumDriver1():
             print("Element not found")
         return element
 
-    # def elementClick(self, locator, locatorType="id"):
-    #     try:
-    #         element = self.getElement(locator, locatorType)
-    #         element.click()
-    #         print("Clicked on element with locator: " + locator + " locatorType: " + locatorType)
-    #     except:
-    #         print("Cannot click on the element")
-    #         print_stack()
-
     def elementClick(self, locator, locatorType="id"):
         try:
             element = self.getElement(locator, locatorType)
@@ -54,6 +45,16 @@ class SeleniumDriver1():
             print("Clicked on element with locator: " + locator + " locatorType: " + locatorType)
         except:
             print("Cannot click on the element with locator: " + locator + " locatorType: " + locatorType)
+            print_stack()
+
+    def sendKeys(self, data, locator, locatorType="id"):
+        try:
+            element = self.getElement(locator, locatorType)
+            element.send_keys(data)
+            print("Sent data on element with locator: " + locator + " locatorType: " + locatorType)
+        except:
+            print("Cannot send data on the element with locator: " + locator + 
+                " locatorType: " + locatorType)
             print_stack()
 
     def isElementPresent(self, locator, byType):
