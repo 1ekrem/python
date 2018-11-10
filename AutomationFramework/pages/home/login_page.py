@@ -37,7 +37,10 @@ class LoginPage(SeleniumDriver):
         self.clickLoginButton()
 
     def verifyLoginSuccessful(self):
-        result = self.isElementPresent(".//*[@id='navbar']//span[text()='Test User']", locatorType="xpath")
-        
+        result = self.isElementPresent("//span[@class='navbar-current-user' and contains(text(),'Test User')]", locatorType="xpath")
+        return result
+
+    def verifyLoginFailed(self):
+        result = self.isElementPresent("//div[contains(text(), 'Invalid email or password.')]", locatorType="xpath")
         return result
 
