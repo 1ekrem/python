@@ -47,19 +47,15 @@ class ShopItemPageModel(WebDriverContainer):
 
     @property
     def available_colors(self):
-        color_container = self._try_find_element(
-            self.__color_container_selector, 20)
-        color_options = self._try_find_elements_of(
-            color_container, self.__color_option_selector, 20)
+        color_container = self._try_find_element(self.__color_container_selector, 20)
+        color_options = self._try_find_elements_of(color_container, self.__color_option_selector, 20)
 
         return color_options
 
     @property
     def available_sizes(self):
-        size_container = self._try_find_element(
-            self.__size_container_selector, 20)
-        size_options = self._try_find_elements_of(
-            size_container, self.__size_option_selector, 20)
+        size_container = self._try_find_element(self.__size_container_selector, 20)
+        size_options = self._try_find_elements_of(size_container, self.__size_option_selector, 20)
 
         return size_options
 

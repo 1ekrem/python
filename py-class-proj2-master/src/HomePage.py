@@ -1,3 +1,7 @@
+"""
+Gives you links of sections
+"""
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
@@ -8,6 +12,7 @@ class HomePageModel(WebDriverContainer):
     __page_container_selector = (By.CLASS_NAME, "navigation")
     __link_selector = (By.CSS_SELECTOR, "li.level0.ui-menu-item > a")
 
+    # Def: When you initiate 
     def __init__(self, driver):
         super().__init__(driver)
 

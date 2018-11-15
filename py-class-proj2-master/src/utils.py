@@ -1,3 +1,8 @@
+"""
+It will iterete through the elements and will find any elements that match the element by text or by title.
+"""
+
+
 from typing import Any, Iterable, List, Type
 
 from selenium.webdriver.remote.webelement import WebElement

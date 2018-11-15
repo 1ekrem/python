@@ -1,3 +1,8 @@
+"""
+The main purpose of this module is that navigation. 
+It loads URLs, loads other sections and opens items page
+"""
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
