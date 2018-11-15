@@ -11,16 +11,16 @@ class LoginTests(unittest.TestCase):
     driver.implicitly_wait(10)
     lp = LoginPage(driver)
 
-    @pytest.mark.run(order=2)
-    def test_validLogin(self):
-        self.lp.login("test@email.com","abcabc")
-        result = self.lp.verifyLoginSuccessful()
-        assert result == True
-        self.driver.close()
+    # @pytest.mark.run(order=2)
+    # def test_validLogin(self):
+    #     self.lp.login("test@email.com","abcabc")
+    #     result = self.lp.verifyLoginSuccessful()
+    #     assert result == True
+    #     self.driver.close()
 
     @pytest.mark.run(order=1)
     def test_invalidLogin(self):
         self.driver.get(self.baseUrl)
-        self.lp.login("test@email.com", "abcabc1")
+        self.lp.login("test@email.com", "abcabc")
         result = self.lp.verifyLoginFailed()
         assert result == True

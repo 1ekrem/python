@@ -14,7 +14,7 @@ class LoginPage(SeleniumDriver):
 
     #Locators
     _login_link = "Login"
-    _emai_field = "user_email"
+    _email_field = "user_email"
     _password_field = "user_password"
     _login_button = "commit"
 
@@ -22,7 +22,7 @@ class LoginPage(SeleniumDriver):
         self.elementClick(self._login_link, locatorType="link")
     
     def enterEmail(self, email):
-        self.sendKeys(email, self._emai_field)
+        self.sendKeys(email, self._email_field)
     
     def enterPassword(self, password):
         self.sendKeys(password,self._password_field)

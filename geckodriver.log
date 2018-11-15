@@ -6767,4 +6767,861 @@ JavaScript error: https://d2oz8i5n9se8ej.cloudfront.net/assets/application-ab29c
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-[GPU 126
+[GPU 1261541902165096	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.kWRILgo9gUVE"
+1541902166565	Marionette	DEBUG	Received observer notification profile-after-change
+1541902166674	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1541902166764	Marionette	DEBUG	Received observer notification command-line-startup
+1541902166764	Marionette	DEBUG	Received observer notification nsPref:changed
+1541902166764	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1541902167014	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1541902169942	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1541902169942	Marionette	DEBUG	GFX sanity window detected, waiting until it has been closed...
+1541902170196	Marionette	DEBUG	Received observer notification domwindowclosed
+1541902170196	Marionette	DEBUG	Waiting for delayed startup...
+1541902170843	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1541902170844	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1541902170845	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1541902170846	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1541902170847	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1541902170847	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1541902170847	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1541902170847	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1541902170848	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1541902170848	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1541902170849	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1541902170850	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1541902170850	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1541902170850	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1541902170850	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1541902170850	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1541902170851	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1541902170851	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1541902170851	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1541902170851	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1541902170851	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1541902170852	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1541902170852	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1541902170852	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1541902170853	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1541902170965	Marionette	INFO	Listening on port 62171
+1541902170966	Marionette	DEBUG	Remote service is active
+1541902171156	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:62194
+1541902171162	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1541902171163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541902171426	Marionette	DEBUG	[6442450945] Frame script loaded
+1541902171448	Marionette	DEBUG	[6442450945] Frame script registered
+1541902171480	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"c4acd80b-6d84-4af2-a4e0-d6f71434c976","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... AppData\\Local\\Temp\\rust_mozprofile.kWRILgo9gUVE","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1541902171540	Marionette	TRACE	0 -> [0,2,"WebDriver:MaximizeWindow",{}]
+1541902171551	Marionette	TRACE	0 <- [1,2,null,{"x":-8,"y":-8,"width":1936,"height":1056,"state":"maximized"}]
+1541902171655	Marionette	TRACE	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":10000}]
+1541902171656	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1541902171698	Marionette	TRACE	0 -> [0,4,"WebDriver:Navigate",{"url":"https://learn.letskodeit.com/"}]
+1541902171716	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1541902172417	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1541902174061	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1541902175610	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1541902175612	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1541902175617	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"link text","value":"Login"}]
+1541902175657	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"19d61a4b-d59e-4de4-b299-de008fa231af"}}]
+1541902175665	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementClick",{"id":"19d61a4b-d59e-4de4-b299-de008fa231af"}]
+1541902175837	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/
+1541902176419	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://learn.letskodeit.com/
+1541902176424	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/
+1541902178005	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1541902178088	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1541902178090	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1541902178503	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1541902178504	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1541902178513	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"user_email\"]"}]
+1541902178519	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"324b7de9-b2de-4a21-b736-ce248519d44c"}}]
+1541902178532	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"324b7de9-b2de-4a21-b736-ce248519d44c","text":"test@email.com","value":["t","e","s","t","@","e","m","a","i","l",".","c","o","m"]}]
+1541902178597	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1541902178602	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"user_password\"]"}]
+1541902178613	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"90aa5391-d786-40e4-8acb-44e741a59b00"}}]
+1541902178621	Marionette	TRACE	0 -> [0,10,"WebDriver:ElementSendKeys",{"id":"90aa5391-d786-40e4-8acb-44e741a59b00","text":"abcabc1","value":["a","b","c","a","b","c","1"]}]
+1541902178668	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1541902178674	Marionette	TRACE	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":"[name=\"commit\"]"}]
+1541902178685	Marionette	TRACE	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"dfff33df-6cf8-4f1f-bdb4-a7c1e0a88947"}}]
+1541902178691	Marionette	TRACE	0 -> [0,12,"WebDriver:ElementClick",{"id":"dfff33df-6cf8-4f1f-bdb4-a7c1e0a88947"}]
+1541902178754	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1541902179375	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1541902179383	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1541902179860	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299
+1541902179914	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1541902179915	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1541902179916	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1541902180136	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299
+1541902180146	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
+1541902180203	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElement",{"using":"link text","value":"Login"}]
+1541902190233	Marionette	TRACE	0 <- [1,13,{"error":"no such element","message":"Unable to locate element: Login","stacktrace":"WebDriverError@chrome://marionette ... entError@chrome://marionette/content/error.js:388:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1541902190249	Marionette	TRACE	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"user_email\"]"}]
+1541902190301	Marionette	TRACE	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"95c5a377-a2a0-4cc9-b5ca-9047490f8a9c"}}]
+1541902190307	Marionette	TRACE	0 -> [0,15,"WebDriver:ElementSendKeys",{"id":"95c5a377-a2a0-4cc9-b5ca-9047490f8a9c","text":"test@email.com","value":["t","e","s","t","@","e","m","a","i","l",".","c","o","m"]}]
+1541902190382	Marionette	TRACE	0 <- [1,15,null,{"value":null}]
+1541902190389	Marionette	TRACE	0 -> [0,16,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"user_password\"]"}]
+1541902190396	Marionette	TRACE	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"677b056d-aeda-4bdd-92bd-37d8de555799"}}]
+1541902190402	Marionette	TRACE	0 -> [0,17,"WebDriver:ElementSendKeys",{"id":"677b056d-aeda-4bdd-92bd-37d8de555799","text":"abcabc","value":["a","b","c","a","b","c"]}]
+1541902190466	Marionette	TRACE	0 <- [1,17,null,{"value":null}]
+1541902190472	Marionette	TRACE	0 -> [0,18,"WebDriver:FindElement",{"using":"css selector","value":"[name=\"commit\"]"}]
+1541902190479	Marionette	TRACE	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2a5621a2-9c45-43fd-9e9c-d4e76af69b10"}}]
+1541902190485	Marionette	TRACE	0 -> [0,19,"WebDriver:ElementClick",{"id":"2a5621a2-9c45-43fd-9e9c-d4e76af69b10"}]
+1541902190737	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541902190738	Marionette	TRACE	0 <- [1,19,null,{"value":null}]
+1541902190833	Marionette	DEBUG	Closed connection 0
+[Child 9032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6916[Parent 2700, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6711541902259145	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541902259145	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541902259145	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541902259146	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541902259146	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541902259146	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541902259146	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541902259147	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541902259147	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541902259148	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541902259148	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541902259149	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541902259149	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541902259149	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541902259149	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541902259150	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541902259150	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541902259150	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541902259150	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541902259150	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541902259151	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541902259151	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541902259151	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541902259151	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541902259151	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541902259151	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541902259151	Marionette	INFO	Stopped listening on port 62171
+1541902259151	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 3548,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+arionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1541902239784	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1541902239784	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1541902239862	Marionette	INFO	Listening on port 62338
+1541902239862	Marionette	DEBUG	Remote service is active
+1541902240207	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:62361
+1541902240209	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1541902240210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541902240380	Marionette	DEBUG	[6442450945] Frame script loaded
+1541902240383	Marionette	DEBUG	[6442450945] Frame script registered
+1541902240387	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"b8551bbf-a38a-42db-a847-ca71b5cb4286","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... AppData\\Local\\Temp\\rust_mozprofile.Ov7JAGMM5Qus","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1541902240440	Marionette	TRACE	0 -> [0,2,"WebDriver:MaximizeWindow",{}]
+1541902240454	Marionette	TRACE	0 <- [1,2,null,{"x":-8,"y":-8,"width":1936,"height":1056,"state":"maximized"}]
+1541902240536	Marionette	TRACE	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":10000}]
+1541902240538	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1541902240580	Marionette	TRACE	0 -> [0,4,"WebDriver:Navigate",{"url":"https://learn.letskodeit.com/"}]
+1541902240599	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1541902241020	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1541902242502	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/
+1541902244062	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1541902244063	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1541902244068	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"link text","value":"Login"}]
+1541902244115	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4e183421-b135-44e0-8cbf-0edb571a7072"}}]
+1541902244122	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementClick",{"id":"4e183421-b135-44e0-8cbf-0edb571a7072"}]
+1541902244287	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://learn.letskodeit.com/
+1541902244529	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://learn.letskodeit.com/
+1541902244532	Marionette	DEBUG	[6442450945] Received DOM event unload for https://learn.letskodeit.com/
+1541902245623	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1541902245754	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1541902245755	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1541902246098	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1541902246100	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1541902246115	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"user_email\"]"}]
+1541902246122	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"decc8b9e-9635-4e98-8ca7-6b36dd0b9887"}}]
+1541902246142	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"decc8b9e-9635-4e98-8ca7-6b36dd0b9887","text":"test@email.com","value":["t","e","s","t","@","e","m","a","i","l",".","c","o","m"]}]
+1541902246213	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1541902246218	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"user_password\"]"}]
+1541902246228	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"51ef99aa-27b2-44d9-bfba-a4b7da120f53"}}]
+1541902246234	Marionette	TRACE	0 -> [0,10,"WebDriver:ElementSendKeys",{"id":"51ef99aa-27b2-44d9-bfba-a4b7da120f53","text":"abcabc","value":["a","b","c","a","b","c"]}]
+1541902246278	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1541902246286	Marionette	TRACE	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":"[name=\"commit\"]"}]
+1541902246301	Marionette	TRACE	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"dd5b02db-de69-4497-b11e-1574e03dcda1"}}]
+1541902246313	Marionette	TRACE	0 -> [0,12,"WebDriver:ElementClick",{"id":"dd5b02db-de69-4497-b11e-1574e03dcda1"}]
+1541902246394	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1541902247331	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1541902247335	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1
+1541902248055	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://learn.letskodeit.com/?sa=eyJ1c2VyX2lkIjoxNTExNDQ4LCJleHBpcmVzX2F0IjoxNTQxOTAyODQ4Ljg0MDEzODIsInNjaG9vbF9pZCI6NDIyOTksImF1dGhlbnRpY2F0aW9uX3Rva2VuIjoieWFKTDRubzZFSDNlemJxZHJBVGp6Tmpoa3hGQnlldVV0USJ9--f84b2e5aa67d38e27422ac521b9a2eab59260f9b
+1541902248168	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1541902248169	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1541902248170	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1541902248541	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://learn.letskodeit.com/
+1541902248543	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
+1541902248640	Marionette	DEBUG	Closed connection 0
+[Parent 9604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc[Parent 9604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6461541902256111	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541902256112	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541902256112	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541902256112	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541902256113	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541902256113	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541902256113	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541902256114	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541902256115	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541902256116	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541902256117	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541902256117	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541902256118	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541902256118	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541902256118	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541902256118	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541902256118	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541902256118	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541902256119	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541902256119	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541902256119	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541902256119	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541902256120	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541902256120	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541902256120	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541902256120	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541902256120	Marionette	INFO	Stopped listening on port 62338
+1541902256121	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 6456, Chrome_C1542169420923	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.GWZlw0UvX8Vq"
+1542169422390	Marionette	DEBUG	Received observer notification profile-after-change
+1542169422493	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542169422549	Marionette	DEBUG	Received observer notification command-line-startup
+1542169422549	Marionette	DEBUG	Received observer notification nsPref:changed
+1542169422549	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1542169422783	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542169424643	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1542169424644	Marionette	DEBUG	Waiting for delayed startup...
+1542169424783	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1542169424784	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1542169424785	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1542169424786	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1542169424787	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1542169424787	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1542169424787	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1542169424788	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1542169424788	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1542169424788	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1542169424789	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1542169424789	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1542169424789	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1542169424790	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1542169424790	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1542169424790	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1542169424790	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1542169424791	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1542169424791	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1542169424791	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1542169424791	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1542169424791	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1542169424792	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1542169424793	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1542169424793	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1542169424874	Marionette	INFO	Listening on port 58878
+1542169424874	Marionette	DEBUG	Remote service is active
+1542169425270	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:58896
+1542169425274	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1542169425275	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542169425426	Marionette	DEBUG	[6442450945] Frame script loaded
+1542169425429	Marionette	DEBUG	[6442450945] Frame script registered
+1542169425433	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"846c07b0-fa4d-4b18-a7ba-232218c19cee","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... AppData\\Local\\Temp\\rust_mozprofile.GWZlw0UvX8Vq","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1542169425472	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://magento2-demo.nexcess.net"}]
+1542169425496	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1542169426133	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1542169426830	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://magento2-demo.nexcess.net/
+1542169428357	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://magento2-demo.nexcess.net/
+1542169428358	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1542169428369	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".navigation"}]
+1542169428385	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"860b4145-a66c-4dc8-b7a0-99e1363bb450"}}]
+1542169428391	Marionette	TRACE	0 -> [0,4,"WebDriver:FindElements",{"element":"860b4145-a66c-4dc8-b7a0-99e1363bb450","using":"css selector","value":"li.level0.ui-menu-item > a"}]
+1542169428412	Marionette	TRACE	0 <- [1,4,null,[]]
+1542169429418	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElements",{"element":"860b4145-a66c-4dc8-b7a0-99e1363bb450","using":"css selector","value":"li.level0.ui-menu-item > a"}]
+1542169429426	Marionette	TRACE	0 <- [1,5,null,[{"element-6066-11e4-a52e-4f735466cecf":"0310c370-c1bd-4802-afe9-77f882c73394"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"1d4df492-788d-4be2-841a-ca39d3e8421f"},{"element-6066-11e4-a52e-4f735466cecf":"3eb008c4-40ff-4e12-8cc7-64d337b005e4"}]]
+1542169429433	Marionette	TRACE	0 -> [0,6,"WebDriver:GetElementText",{"id":"0310c370-c1bd-4802-afe9-77f882c73394"}]
+1542169429456	Marionette	TRACE	0 <- [1,6,null,{"value":"What's New"}]
+1542169429462	Marionette	TRACE	0 -> [0,7,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"0310c370-c1bd-4802-afe9-77f882c73394","element-6066-11e4-a52e-4f735466cec ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169429486	Marionette	TRACE	0 <- [1,7,null,{"value":"http://magento2-demo.nexcess.net/what-is-new.html"}]
+1542169429490	Marionette	TRACE	0 -> [0,8,"WebDriver:GetElementText",{"id":"bc859704-3321-465f-bdaa-bd51ae05714e"}]
+1542169429522	Marionette	TRACE	0 <- [1,8,null,{"value":"Women"}]
+1542169429526	Marionette	TRACE	0 -> [0,9,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"bc859704-3321-465f-bdaa-bd51ae05714e","element-6066-11e4-a52e-4f735466cec ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169429534	Marionette	TRACE	0 <- [1,9,null,{"value":"http://magento2-demo.nexcess.net/women.html"}]
+1542169429538	Marionette	TRACE	0 -> [0,10,"WebDriver:GetElementText",{"id":"2db021ad-c4be-4471-b808-45f92e96f314"}]
+1542169429550	Marionette	TRACE	0 <- [1,10,null,{"value":"Men"}]
+1542169429557	Marionette	TRACE	0 -> [0,11,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2db021ad-c4be-4471-b808-45f92e96f314","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169429565	Marionette	TRACE	0 <- [1,11,null,{"value":"http://magento2-demo.nexcess.net/men.html"}]
+1542169429570	Marionette	TRACE	0 -> [0,12,"WebDriver:GetElementText",{"id":"976d7821-7861-49a1-a0fa-744017d7f7c8"}]
+1542169429585	Marionette	TRACE	0 <- [1,12,null,{"value":"Gear"}]
+1542169429589	Marionette	TRACE	0 -> [0,13,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"976d7821-7861-49a1-a0fa-744017d7f7c8","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169429597	Marionette	TRACE	0 <- [1,13,null,{"value":"http://magento2-demo.nexcess.net/gear.html"}]
+1542169429600	Marionette	TRACE	0 -> [0,14,"WebDriver:GetElementText",{"id":"1d4df492-788d-4be2-841a-ca39d3e8421f"}]
+1542169429611	Marionette	TRACE	0 <- [1,14,null,{"value":"Training"}]
+1542169429614	Marionette	TRACE	0 -> [0,15,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"1d4df492-788d-4be2-841a-ca39d3e8421f","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169429621	Marionette	TRACE	0 <- [1,15,null,{"value":"http://magento2-demo.nexcess.net/training.html"}]
+1542169429625	Marionette	TRACE	0 -> [0,16,"WebDriver:GetElementText",{"id":"3eb008c4-40ff-4e12-8cc7-64d337b005e4"}]
+1542169429635	Marionette	TRACE	0 <- [1,16,null,{"value":"Sale"}]
+1542169429638	Marionette	TRACE	0 -> [0,17,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"3eb008c4-40ff-4e12-8cc7-64d337b005e4","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169429647	Marionette	TRACE	0 <- [1,17,null,{"value":"http://magento2-demo.nexcess.net/sale.html"}]
+1542169429652	Marionette	TRACE	0 -> [0,18,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542169429857	Marionette	TRACE	0 <- [1,18,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABPMAAAN+CAYAAABw6U4mAAAgAElEQVR4nOy9d3Rc5Z24n2xwkWXJhWrcwBTTwQUXOgEM2NgUA8YkEDZ8 ... Vl5NxSSv5nJ93nhCvP+PClV6Z1WJJ70KVbz/Qz3TWmez03Cve8I3XOmxHSLw+W78Oqn5x3YSWSXebdSiXgIiIiIiPGCC//H0eJBiFZoX15AAAAAElFTkSuQmCC"}]
+1542169429916	Marionette	TRACE	0 -> [0,19,"WebDriver:GetElementText",{"id":"0310c370-c1bd-4802-afe9-77f882c73394"}]
+1542169429926	Marionette	TRACE	0 <- [1,19,null,{"value":"What's New"}]
+1542169429929	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementClick",{"id":"0310c370-c1bd-4802-afe9-77f882c73394"}]
+1542169429960	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://magento2-demo.nexcess.net/
+1542169430123	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://magento2-demo.nexcess.net/
+1542169430124	Marionette	DEBUG	[6442450945] Received DOM event unload for http://magento2-demo.nexcess.net/
+1542169430351	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://magento2-demo.nexcess.net/what-is-new.html
+1542169430943	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://magento2-demo.nexcess.net/what-is-new.html
+1542169430945	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1542169430953	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":".sidebar.sidebar-main"}]
+1542169430958	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"535a8f0a-531a-4f29-bf8b-5343da511430"}}]
+1542169430963	Marionette	TRACE	0 -> [0,22,"WebDriver:FindElements",{"element":"535a8f0a-531a-4f29-bf8b-5343da511430","using":"css selector","value":"ul.items > li.item > a"}]
+1542169430979	Marionette	TRACE	0 <- [1,22,null,[{"element-6066-11e4-a52e-4f735466cecf":"bf364328-0f0d-4531-b434-49aed84de70b"},{"element-6066-11e4-a52e-4f735466c ... ecf":"fa038135-12cb-4d6c-9a28-c409682f4480"},{"element-6066-11e4-a52e-4f735466cecf":"7d7e6e5a-d9ca-4eda-bdfd-8cc23c52c94a"}]]
+1542169430990	Marionette	TRACE	0 -> [0,23,"WebDriver:GetElementText",{"id":"bf364328-0f0d-4531-b434-49aed84de70b"}]
+1542169431059	Marionette	TRACE	0 <- [1,23,null,{"value":"Hoodies & Sweatshirts"}]
+1542169431066	Marionette	TRACE	0 -> [0,24,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"bf364328-0f0d-4531-b434-49aed84de70b","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431100	Marionette	TRACE	0 <- [1,24,null,{"value":"http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html"}]
+1542169431106	Marionette	TRACE	0 -> [0,25,"WebDriver:GetElementText",{"id":"be107532-87e7-4c19-b19a-1570f72b6f2d"}]
+1542169431141	Marionette	TRACE	0 <- [1,25,null,{"value":"Jackets"}]
+1542169431150	Marionette	TRACE	0 -> [0,26,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"be107532-87e7-4c19-b19a-1570f72b6f2d","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431205	Marionette	TRACE	0 <- [1,26,null,{"value":"http://magento2-demo.nexcess.net/women/tops-women/jackets-women.html"}]
+1542169431215	Marionette	TRACE	0 -> [0,27,"WebDriver:GetElementText",{"id":"08b22aa6-559c-4730-b335-772460a6beab"}]
+1542169431262	Marionette	TRACE	0 <- [1,27,null,{"value":"Tees"}]
+1542169431272	Marionette	TRACE	0 -> [0,28,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"08b22aa6-559c-4730-b335-772460a6beab","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431300	Marionette	TRACE	0 <- [1,28,null,{"value":"http://magento2-demo.nexcess.net/women/tops-women/tees-women.html"}]
+1542169431307	Marionette	TRACE	0 -> [0,29,"WebDriver:GetElementText",{"id":"53a7c602-831b-46c7-a4bd-1ed523720875"}]
+1542169431332	Marionette	TRACE	0 <- [1,29,null,{"value":"Bras & Tanks"}]
+1542169431339	Marionette	TRACE	0 -> [0,30,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"53a7c602-831b-46c7-a4bd-1ed523720875","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431362	Marionette	TRACE	0 <- [1,30,null,{"value":"http://magento2-demo.nexcess.net/women/tops-women/tanks-women.html"}]
+1542169431367	Marionette	TRACE	0 -> [0,31,"WebDriver:GetElementText",{"id":"681d3a88-e926-4b25-946d-87fb94a53f95"}]
+1542169431389	Marionette	TRACE	0 <- [1,31,null,{"value":"Pants"}]
+1542169431397	Marionette	TRACE	0 -> [0,32,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"681d3a88-e926-4b25-946d-87fb94a53f95","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431451	Marionette	TRACE	0 <- [1,32,null,{"value":"http://magento2-demo.nexcess.net/women/bottoms-women/pants-women.html"}]
+1542169431458	Marionette	TRACE	0 -> [0,33,"WebDriver:GetElementText",{"id":"04d91e49-673d-4f07-b2c2-d4d75b43a96b"}]
+1542169431483	Marionette	TRACE	0 <- [1,33,null,{"value":"Shorts"}]
+1542169431488	Marionette	TRACE	0 -> [0,34,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"04d91e49-673d-4f07-b2c2-d4d75b43a96b","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431512	Marionette	TRACE	0 <- [1,34,null,{"value":"http://magento2-demo.nexcess.net/women/bottoms-women/shorts-women.html"}]
+1542169431517	Marionette	TRACE	0 -> [0,35,"WebDriver:GetElementText",{"id":"f3027959-42ee-4591-8c7e-20efdbc3de7b"}]
+1542169431535	Marionette	TRACE	0 <- [1,35,null,{"value":"Hoodies & Sweatshirts"}]
+1542169431539	Marionette	TRACE	0 -> [0,36,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"f3027959-42ee-4591-8c7e-20efdbc3de7b","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431582	Marionette	TRACE	0 <- [1,36,null,{"value":"http://magento2-demo.nexcess.net/men/tops-men/hoodies-and-sweatshirts-men.html"}]
+1542169431592	Marionette	TRACE	0 -> [0,37,"WebDriver:GetElementText",{"id":"9061a81d-b6ae-48a0-ba42-0f60f1bc3f34"}]
+1542169431602	Marionette	TRACE	0 <- [1,37,null,{"value":"Jackets"}]
+1542169431606	Marionette	TRACE	0 -> [0,38,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"9061a81d-b6ae-48a0-ba42-0f60f1bc3f34","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431689	Marionette	TRACE	0 <- [1,38,null,{"value":"http://magento2-demo.nexcess.net/men/tops-men/jackets-men.html"}]
+1542169431697	Marionette	TRACE	0 -> [0,39,"WebDriver:GetElementText",{"id":"6cd68fe7-7b9a-4270-8561-ccd9df02c237"}]
+1542169431713	Marionette	TRACE	0 <- [1,39,null,{"value":"Tees"}]
+1542169431716	Marionette	TRACE	0 -> [0,40,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"6cd68fe7-7b9a-4270-8561-ccd9df02c237","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431723	Marionette	TRACE	0 <- [1,40,null,{"value":"http://magento2-demo.nexcess.net/men/tops-men/tees-men.html"}]
+1542169431728	Marionette	TRACE	0 -> [0,41,"WebDriver:GetElementText",{"id":"efcf03ce-e32e-4b43-876d-7146ccdcfe98"}]
+1542169431734	Marionette	TRACE	0 <- [1,41,null,{"value":"Tanks"}]
+1542169431738	Marionette	TRACE	0 -> [0,42,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"efcf03ce-e32e-4b43-876d-7146ccdcfe98","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431745	Marionette	TRACE	0 <- [1,42,null,{"value":"http://magento2-demo.nexcess.net/men/tops-men/tanks-men.html"}]
+1542169431750	Marionette	TRACE	0 -> [0,43,"WebDriver:GetElementText",{"id":"fa038135-12cb-4d6c-9a28-c409682f4480"}]
+1542169431800	Marionette	TRACE	0 <- [1,43,null,{"value":"Pants"}]
+1542169431804	Marionette	TRACE	0 -> [0,44,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"fa038135-12cb-4d6c-9a28-c409682f4480","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431881	Marionette	TRACE	0 <- [1,44,null,{"value":"http://magento2-demo.nexcess.net/men/bottoms-men/pants-men.html"}]
+1542169431886	Marionette	TRACE	0 -> [0,45,"WebDriver:GetElementText",{"id":"7d7e6e5a-d9ca-4eda-bdfd-8cc23c52c94a"}]
+1542169431896	Marionette	TRACE	0 <- [1,45,null,{"value":"Shorts"}]
+1542169431900	Marionette	TRACE	0 -> [0,46,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"7d7e6e5a-d9ca-4eda-bdfd-8cc23c52c94a","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169431917	Marionette	TRACE	0 <- [1,46,null,{"value":"http://magento2-demo.nexcess.net/men/bottoms-men/shorts-men.html"}]
+1542169431922	Marionette	TRACE	0 -> [0,47,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542169432138	Marionette	TRACE	0 <- [1,47,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABPMAAAN+CAYAAABw6U4mAAAgAElEQVR4nOzdaZCkB33nefxi3zhid18xGzM74dmZmCN2Zr0zS3tlBJhj ... wFBrCYe+n5oZbBIf2Pv5VGBnrbaW7JxVDnjab+HYoa12LsisFoElFS/TX5ZbuQGzYSkbycyMTNKPP96e9rAH544Of6ret/AP7N717F6kV5AAAAAElFTkSuQmCC"}]
+1542169432210	Marionette	TRACE	0 -> [0,48,"WebDriver:GetElementText",{"id":"bf364328-0f0d-4531-b434-49aed84de70b"}]
+1542169432217	Marionette	TRACE	0 <- [1,48,null,{"value":"Hoodies & Sweatshirts"}]
+1542169432220	Marionette	TRACE	0 -> [0,49,"WebDriver:ElementClick",{"id":"bf364328-0f0d-4531-b434-49aed84de70b"}]
+1542169432241	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://magento2-demo.nexcess.net/what-is-new.html
+1542169432407	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://magento2-demo.nexcess.net/what-is-new.html
+1542169432408	Marionette	DEBUG	[6442450945] Received DOM event unload for http://magento2-demo.nexcess.net/what-is-new.html
+1542169432895	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html
+1542169433753	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html
+1542169433754	Marionette	TRACE	0 <- [1,49,null,{"value":null}]
+1542169433761	Marionette	TRACE	0 -> [0,50,"WebDriver:FindElement",{"using":"css selector","value":"div.products.wrapper.grid.products-grid"}]
+1542169433808	Marionette	TRACE	0 <- [1,50,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"85520c5a-0217-4811-b397-cc2d96983fdf"}}]
+1542169433811	Marionette	TRACE	0 -> [0,51,"WebDriver:FindElements",{"element":"85520c5a-0217-4811-b397-cc2d96983fdf","using":"css selector","value":".product-item-link"}]
+1542169433915	Marionette	TRACE	0 <- [1,51,null,[{"element-6066-11e4-a52e-4f735466cecf":"a9032ce8-a9f1-4d91-8006-c4c1495c5da1"},{"element-6066-11e4-a52e-4f735466c ... ecf":"dda86da8-5ce6-4e80-9040-a485753fa88c"},{"element-6066-11e4-a52e-4f735466cecf":"41557bc9-c677-4e1f-a70b-7e032b3f2bc0"}]]
+1542169433923	Marionette	TRACE	0 -> [0,52,"WebDriver:GetElementText",{"id":"a9032ce8-a9f1-4d91-8006-c4c1495c5da1"}]
+1542169433962	Marionette	TRACE	0 <- [1,52,null,{"value":"Mona Pullover Hoodlie"}]
+1542169433968	Marionette	TRACE	0 -> [0,53,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a9032ce8-a9f1-4d91-8006-c4c1495c5da1","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169433993	Marionette	TRACE	0 <- [1,53,null,{"value":"http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html"}]
+1542169433999	Marionette	TRACE	0 -> [0,54,"WebDriver:GetElementText",{"id":"49674be1-4630-4667-b58a-2d667b3169ac"}]
+1542169434055	Marionette	TRACE	0 <- [1,54,null,{"value":"Eos V-Neck Hoodie"}]
+1542169434059	Marionette	TRACE	0 -> [0,55,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"49674be1-4630-4667-b58a-2d667b3169ac","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169434117	Marionette	TRACE	0 <- [1,55,null,{"value":"http://magento2-demo.nexcess.net/eos-v-neck-hoodie.html"}]
+1542169434124	Marionette	TRACE	0 -> [0,56,"WebDriver:GetElementText",{"id":"00b1d137-1a34-449e-940e-465460cc1892"}]
+1542169434181	Marionette	TRACE	0 <- [1,56,null,{"value":"Helena Hooded Fleece"}]
+1542169434186	Marionette	TRACE	0 -> [0,57,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"00b1d137-1a34-449e-940e-465460cc1892","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169434223	Marionette	TRACE	0 <- [1,57,null,{"value":"http://magento2-demo.nexcess.net/helena-hooded-fleece.html"}]
+1542169434234	Marionette	TRACE	0 -> [0,58,"WebDriver:GetElementText",{"id":"08720075-c7b7-4c98-bbf6-ca7da405d3e1"}]
+1542169434272	Marionette	TRACE	0 <- [1,58,null,{"value":"Ariel Roll Sleeve Sweatshirt"}]
+1542169434277	Marionette	TRACE	0 -> [0,59,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"08720075-c7b7-4c98-bbf6-ca7da405d3e1","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169434316	Marionette	TRACE	0 <- [1,59,null,{"value":"http://magento2-demo.nexcess.net/ariel-roll-sleeve-sweatshirt.html"}]
+1542169434321	Marionette	TRACE	0 -> [0,60,"WebDriver:GetElementText",{"id":"9f01fd0e-1cea-4dbb-a23a-7ce0627afd0c"}]
+1542169434366	Marionette	TRACE	0 <- [1,60,null,{"value":"Cassia Funnel Sweatshirt"}]
+1542169434371	Marionette	TRACE	0 -> [0,61,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"9f01fd0e-1cea-4dbb-a23a-7ce0627afd0c","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169434390	Marionette	TRACE	0 <- [1,61,null,{"value":"http://magento2-demo.nexcess.net/cassia-funnel-sweatshirt.html"}]
+1542169434399	Marionette	TRACE	0 -> [0,62,"WebDriver:GetElementText",{"id":"90de358c-c403-472f-a07b-37919a258168"}]
+1542169434428	Marionette	TRACE	0 <- [1,62,null,{"value":"Phoebe Zipper Sweatshirt"}]
+1542169434434	Marionette	TRACE	0 -> [0,63,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"90de358c-c403-472f-a07b-37919a258168","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169434486	Marionette	TRACE	0 <- [1,63,null,{"value":"http://magento2-demo.nexcess.net/phoebe-zipper-sweatshirt.html"}]
+1542169434492	Marionette	TRACE	0 -> [0,64,"WebDriver:GetElementText",{"id":"7e92f04c-9a43-4303-a0da-f411a1b411a5"}]
+1542169434516	Marionette	TRACE	0 <- [1,64,null,{"value":"Daphne Full-Zip Hoodie"}]
+1542169434521	Marionette	TRACE	0 -> [0,65,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"7e92f04c-9a43-4303-a0da-f411a1b411a5","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169434584	Marionette	TRACE	0 <- [1,65,null,{"value":"http://magento2-demo.nexcess.net/daphne-full-zip-hoodie.html"}]
+1542169434589	Marionette	TRACE	0 -> [0,66,"WebDriver:GetElementText",{"id":"dda86da8-5ce6-4e80-9040-a485753fa88c"}]
+1542169434648	Marionette	TRACE	0 <- [1,66,null,{"value":"Selene Yoga Hoodie"}]
+1542169434652	Marionette	TRACE	0 -> [0,67,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"dda86da8-5ce6-4e80-9040-a485753fa88c","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169434669	Marionette	TRACE	0 <- [1,67,null,{"value":"http://magento2-demo.nexcess.net/selene-yoga-hoodie.html"}]
+1542169434676	Marionette	TRACE	0 -> [0,68,"WebDriver:GetElementText",{"id":"41557bc9-c677-4e1f-a70b-7e032b3f2bc0"}]
+1542169434696	Marionette	TRACE	0 <- [1,68,null,{"value":"Miko Pullover Hoodie"}]
+1542169434700	Marionette	TRACE	0 -> [0,69,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"41557bc9-c677-4e1f-a70b-7e032b3f2bc0","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169434711	Marionette	TRACE	0 <- [1,69,null,{"value":"http://magento2-demo.nexcess.net/miko-pullover-hoodie.html"}]
+1542169434718	Marionette	TRACE	0 -> [0,70,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542169434863	Marionette	TRACE	0 <- [1,70,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABPMAAAN+CAYAAABw6U4mAAAgAElEQVR4nOzdaZRb9b0m6pwP90vWuvd+yrmr+/Y6fbtXd591u+/pczo+ ... wDAAAAAAAALEGYBwAAAAAAAFiCMA8AAAAAAACwBGEeAAAAAAAAYAnCPAAAAAAAAMAShHkAAAAAAACAJQjzAAAAAAAAAEv8f6IK29MKlspLAAAAAElFTkSuQmCC"}]
+1542169434894	Marionette	TRACE	0 -> [0,71,"WebDriver:GetElementText",{"id":"a9032ce8-a9f1-4d91-8006-c4c1495c5da1"}]
+1542169434981	Marionette	TRACE	0 <- [1,71,null,{"value":"Mona Pullover Hoodlie"}]
+1542169434984	Marionette	TRACE	0 -> [0,72,"WebDriver:ElementClick",{"id":"a9032ce8-a9f1-4d91-8006-c4c1495c5da1"}]
+1542169435024	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html
+1542169435189	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html
+1542169435193	Marionette	DEBUG	[6442450945] Received DOM event unload for http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html
+1542169435398	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169435973	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169435975	Marionette	TRACE	0 <- [1,72,null,{"value":null}]
+1542169435986	Marionette	TRACE	0 -> [0,73,"WebDriver:FindElement",{"using":"css selector","value":".swatch-attribute.color"}]
+1542169436079	Marionette	TRACE	0 <- [1,73,{"error":"no such element","message":"Unable to locate element: .swatch-attribute.color","stacktrace":"WebDriverError@c ... entError@chrome://marionette/content/error.js:388:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1542169437087	Marionette	TRACE	0 -> [0,74,"WebDriver:FindElement",{"using":"css selector","value":".swatch-attribute.color"}]
+1542169437118	Marionette	TRACE	0 <- [1,74,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"75d82714-6842-4564-9f94-94c7ff1f765c"}}]
+1542169437123	Marionette	TRACE	0 -> [0,75,"WebDriver:FindElements",{"element":"75d82714-6842-4564-9f94-94c7ff1f765c","using":"css selector","value":".swatch-option.color"}]
+1542169437223	Marionette	TRACE	0 <- [1,75,null,[{"element-6066-11e4-a52e-4f735466cecf":"a1071961-f7ee-4319-a613-d4b8b6f60448"},{"element-6066-11e4-a52e-4f735466cecf":"e8f28f08-30eb-4726-951f-007ac70d4659"},{"element-6066-11e4-a52e-4f735466cecf":"259779bf-526b-46a9-8523-773c001d1e06"}]]
+1542169437230	Marionette	TRACE	0 -> [0,76,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a1071961-f7ee-4319-a613-d4b8b6f60448","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437257	Marionette	TRACE	0 <- [1,76,null,{"value":"Green"}]
+1542169437262	Marionette	TRACE	0 -> [0,77,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"e8f28f08-30eb-4726-951f-007ac70d4659","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437318	Marionette	TRACE	0 <- [1,77,null,{"value":"Orange"}]
+1542169437324	Marionette	TRACE	0 -> [0,78,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"259779bf-526b-46a9-8523-773c001d1e06","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437353	Marionette	TRACE	0 <- [1,78,null,{"value":"Purple"}]
+1542169437359	Marionette	TRACE	0 -> [0,79,"WebDriver:FindElement",{"using":"css selector","value":".swatch-attribute.size"}]
+1542169437379	Marionette	TRACE	0 <- [1,79,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6ee52b05-fb19-4bc7-8b15-7ab0d02c37c1"}}]
+1542169437384	Marionette	TRACE	0 -> [0,80,"WebDriver:FindElements",{"element":"6ee52b05-fb19-4bc7-8b15-7ab0d02c37c1","using":"css selector","value":".swatch-option.text"}]
+1542169437390	Marionette	TRACE	0 <- [1,80,null,[{"element-6066-11e4-a52e-4f735466cecf":"d302f273-1462-4002-a95b-f6646badc768"},{"element-6066-11e4-a52e-4f735466c ... ecf":"be8972de-cb73-4358-b66a-ae2d929ea586"},{"element-6066-11e4-a52e-4f735466cecf":"7e0357d3-e813-4295-8594-e8e3b4238d90"}]]
+1542169437394	Marionette	TRACE	0 -> [0,81,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d302f273-1462-4002-a95b-f6646badc768","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437402	Marionette	TRACE	0 <- [1,81,null,{"value":"XS"}]
+1542169437406	Marionette	TRACE	0 -> [0,82,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"feb18896-8f38-4edb-ae34-d4837727f65c","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437417	Marionette	TRACE	0 <- [1,82,null,{"value":"S"}]
+1542169437421	Marionette	TRACE	0 -> [0,83,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"b583395f-8256-4214-b829-915cbc51df16","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437430	Marionette	TRACE	0 <- [1,83,null,{"value":"M"}]
+1542169437436	Marionette	TRACE	0 -> [0,84,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"be8972de-cb73-4358-b66a-ae2d929ea586","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437453	Marionette	TRACE	0 <- [1,84,null,{"value":"L"}]
+1542169437458	Marionette	TRACE	0 -> [0,85,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"7e0357d3-e813-4295-8594-e8e3b4238d90","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437470	Marionette	TRACE	0 <- [1,85,null,{"value":"XL"}]
+1542169437476	Marionette	TRACE	0 -> [0,86,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542169437589	Marionette	TRACE	0 <- [1,86,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABPMAAAN+CAYAAABw6U4mAAAgAElEQVR4nOzdaXSUBb7v+94v7pte6977qvdd59y99jn73LN3793dtkM0 ... Ti5WBMHAAAADxJREFUd5WRdrSBBquagWEXo8/GfHJ+cpLJ8YnAQz45PvEr180L838UhAgICAgICAgICAgICAgICPwu/hdxCRxrLxLB+wAAAABJRU5ErkJggg=="}]
+1542169437612	Marionette	TRACE	0 -> [0,87,"WebDriver:FindElement",{"using":"css selector","value":".swatch-attribute.color"}]
+1542169437616	Marionette	TRACE	0 <- [1,87,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"75d82714-6842-4564-9f94-94c7ff1f765c"}}]
+1542169437619	Marionette	TRACE	0 -> [0,88,"WebDriver:FindElements",{"element":"75d82714-6842-4564-9f94-94c7ff1f765c","using":"css selector","value":".swatch-option.color"}]
+1542169437623	Marionette	TRACE	0 <- [1,88,null,[{"element-6066-11e4-a52e-4f735466cecf":"a1071961-f7ee-4319-a613-d4b8b6f60448"},{"element-6066-11e4-a52e-4f735466cecf":"e8f28f08-30eb-4726-951f-007ac70d4659"},{"element-6066-11e4-a52e-4f735466cecf":"259779bf-526b-46a9-8523-773c001d1e06"}]]
+1542169437627	Marionette	TRACE	0 -> [0,89,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a1071961-f7ee-4319-a613-d4b8b6f60448","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437634	Marionette	TRACE	0 <- [1,89,null,{"value":"Green"}]
+1542169437637	Marionette	TRACE	0 -> [0,90,"WebDriver:ElementClick",{"id":"a1071961-f7ee-4319-a613-d4b8b6f60448"}]
+1542169437898	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1542169437899	Marionette	TRACE	0 <- [1,90,null,{"value":null}]
+1542169437903	Marionette	TRACE	0 -> [0,91,"WebDriver:FindElement",{"using":"css selector","value":".swatch-attribute.size"}]
+1542169437906	Marionette	TRACE	0 <- [1,91,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6ee52b05-fb19-4bc7-8b15-7ab0d02c37c1"}}]
+1542169437910	Marionette	TRACE	0 -> [0,92,"WebDriver:FindElements",{"element":"6ee52b05-fb19-4bc7-8b15-7ab0d02c37c1","using":"css selector","value":".swatch-option.text"}]
+1542169437916	Marionette	TRACE	0 <- [1,92,null,[{"element-6066-11e4-a52e-4f735466cecf":"d302f273-1462-4002-a95b-f6646badc768"},{"element-6066-11e4-a52e-4f735466c ... ecf":"be8972de-cb73-4358-b66a-ae2d929ea586"},{"element-6066-11e4-a52e-4f735466cecf":"7e0357d3-e813-4295-8594-e8e3b4238d90"}]]
+1542169437920	Marionette	TRACE	0 -> [0,93,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d302f273-1462-4002-a95b-f6646badc768","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437928	Marionette	TRACE	0 <- [1,93,null,{"value":"XS"}]
+1542169437932	Marionette	TRACE	0 -> [0,94,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"feb18896-8f38-4edb-ae34-d4837727f65c","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437941	Marionette	TRACE	0 <- [1,94,null,{"value":"S"}]
+1542169437944	Marionette	TRACE	0 -> [0,95,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"b583395f-8256-4214-b829-915cbc51df16","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437952	Marionette	TRACE	0 <- [1,95,null,{"value":"M"}]
+1542169437956	Marionette	TRACE	0 -> [0,96,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"be8972de-cb73-4358-b66a-ae2d929ea586","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437964	Marionette	TRACE	0 <- [1,96,null,{"value":"L"}]
+1542169437967	Marionette	TRACE	0 -> [0,97,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"7e0357d3-e813-4295-8594-e8e3b4238d90","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169437975	Marionette	TRACE	0 <- [1,97,null,{"value":"XL"}]
+1542169437980	Marionette	TRACE	0 -> [0,98,"WebDriver:ElementClick",{"id":"7e0357d3-e813-4295-8594-e8e3b4238d90"}]
+1542169438235	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1542169438236	Marionette	TRACE	0 <- [1,98,null,{"value":null}]
+1542169438239	Marionette	TRACE	0 -> [0,99,"WebDriver:FindElement",{"using":"css selector","value":"input#qty"}]
+1542169438242	Marionette	TRACE	0 <- [1,99,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c1add507-8948-4652-a797-173ad569862e"}}]
+1542169438245	Marionette	TRACE	0 -> [0,100,"WebDriver:ElementClear",{"id":"c1add507-8948-4652-a797-173ad569862e"}]
+1542169438269	Marionette	TRACE	0 <- [1,100,null,{"value":null}]
+1542169438273	Marionette	TRACE	0 -> [0,101,"WebDriver:ElementSendKeys",{"id":"c1add507-8948-4652-a797-173ad569862e","text":"5","value":["5"]}]
+1542169438301	Marionette	TRACE	0 <- [1,101,null,{"value":null}]
+1542169438306	Marionette	TRACE	0 -> [0,102,"WebDriver:FindElement",{"using":"css selector","value":"#product-addtocart-button"}]
+1542169438312	Marionette	TRACE	0 <- [1,102,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8bfd4918-63ea-4740-be51-1ef33407048c"}}]
+1542169438317	Marionette	TRACE	0 -> [0,103,"WebDriver:ElementClick",{"id":"8bfd4918-63ea-4740-be51-1ef33407048c"}]
+1542169438393	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169439295	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169439298	Marionette	DEBUG	[6442450945] Received DOM event unload for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169439538	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169439959	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169439960	Marionette	TRACE	0 <- [1,103,null,{"value":null}]
+1542169439995	Marionette	DEBUG	Closed connection 0
+[Child 13840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13840, Chrome_ChildThread] WAR[Child 9408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Parent 4680, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1542169445537	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1542169445538	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1542169445538	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1542169445538	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1542169445538	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1542169445539	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1542169445539	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1542169445540	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1542169445540	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1542169445541	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1542169445542	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1542169445542	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1542169445543	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1542169445543	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1542169445544	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1542169445544	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1542169445544	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1542169445544	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1542169445545	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1542169445546	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1542169445546	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1542169445546	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1542169445546	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1542169445546	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1542169445547	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1542169445547	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1542169445547	Marionette	INFO	Stopped listening on port 58878
+1542169445548	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542169603172	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.T41e3sfTqgNu"
+1542169604535	Marionette	DEBUG	Received observer notification profile-after-change
+1542169604634	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542169604680	Marionette	DEBUG	Received observer notification command-line-startup
+1542169604680	Marionette	DEBUG	Received observer notification nsPref:changed
+1542169604680	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1542169604920	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542169606503	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1542169606503	Marionette	DEBUG	GFX sanity window detected, waiting until it has been closed...
+1542169607085	Marionette	DEBUG	Received observer notification domwindowclosed
+1542169607086	Marionette	DEBUG	Waiting for delayed startup...
+1542169607146	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1542169607147	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1542169607148	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1542169607149	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1542169607150	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1542169607151	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1542169607153	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1542169607154	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1542169607154	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1542169607155	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1542169607155	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1542169607158	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1542169607158	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1542169607159	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1542169607159	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1542169607159	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1542169607160	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1542169607162	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1542169607162	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1542169607163	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1542169607163	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1542169607163	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1542169607164	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1542169607164	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1542169607165	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1542169607273	Marionette	INFO	Listening on port 59192
+1542169607273	Marionette	DEBUG	Remote service is active
+1542169607513	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:59207
+1542169607530	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1542169607531	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542169607782	Marionette	DEBUG	[6442450945] Frame script loaded
+1542169607786	Marionette	DEBUG	[6442450945] Frame script registered
+1542169607790	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"c8818178-b83d-41f9-b900-358171bd68c9","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... AppData\\Local\\Temp\\rust_mozprofile.T41e3sfTqgNu","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1542169607822	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"http://magento2-demo.nexcess.net"}]
+1542169607870	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1542169608098	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1542169608753	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://magento2-demo.nexcess.net/
+1542169610085	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://magento2-demo.nexcess.net/
+1542169610087	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1542169610094	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".navigation"}]
+1542169610105	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"b9fc617b-9e39-4217-9cce-f52f453f11cb"}}]
+1542169610112	Marionette	TRACE	0 -> [0,4,"WebDriver:FindElements",{"element":"b9fc617b-9e39-4217-9cce-f52f453f11cb","using":"css selector","value":"li.level0.ui-menu-item > a"}]
+1542169610139	Marionette	TRACE	0 <- [1,4,null,[]]
+1542169611144	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElements",{"element":"b9fc617b-9e39-4217-9cce-f52f453f11cb","using":"css selector","value":"li.level0.ui-menu-item > a"}]
+1542169611156	Marionette	TRACE	0 <- [1,5,null,[{"element-6066-11e4-a52e-4f735466cecf":"4fce09da-53eb-4289-bd52-e9b63df3020c"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"42cb5765-85fd-41e1-8303-d94d2649bc31"},{"element-6066-11e4-a52e-4f735466cecf":"dcbf097e-e21c-4a2e-9b39-7082855724a2"}]]
+1542169611161	Marionette	TRACE	0 -> [0,6,"WebDriver:GetElementText",{"id":"4fce09da-53eb-4289-bd52-e9b63df3020c"}]
+1542169611181	Marionette	TRACE	0 <- [1,6,null,{"value":"What's New"}]
+1542169611185	Marionette	TRACE	0 -> [0,7,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"4fce09da-53eb-4289-bd52-e9b63df3020c","element-6066-11e4-a52e-4f735466cec ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169611195	Marionette	TRACE	0 <- [1,7,null,{"value":"http://magento2-demo.nexcess.net/what-is-new.html"}]
+1542169611199	Marionette	TRACE	0 -> [0,8,"WebDriver:GetElementText",{"id":"2c3462b9-cab8-4fec-a584-3e685ba73ae1"}]
+1542169611211	Marionette	TRACE	0 <- [1,8,null,{"value":"Women"}]
+1542169611215	Marionette	TRACE	0 -> [0,9,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2c3462b9-cab8-4fec-a584-3e685ba73ae1","element-6066-11e4-a52e-4f735466cec ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169611223	Marionette	TRACE	0 <- [1,9,null,{"value":"http://magento2-demo.nexcess.net/women.html"}]
+1542169611228	Marionette	TRACE	0 -> [0,10,"WebDriver:GetElementText",{"id":"bc5a5ed5-f7c7-4c7d-9dae-f51f5990e745"}]
+1542169611240	Marionette	TRACE	0 <- [1,10,null,{"value":"Men"}]
+1542169611246	Marionette	TRACE	0 -> [0,11,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"bc5a5ed5-f7c7-4c7d-9dae-f51f5990e745","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169611255	Marionette	TRACE	0 <- [1,11,null,{"value":"http://magento2-demo.nexcess.net/men.html"}]
+1542169611258	Marionette	TRACE	0 -> [0,12,"WebDriver:GetElementText",{"id":"d1707098-42d7-46ca-8378-b298be49c864"}]
+1542169611272	Marionette	TRACE	0 <- [1,12,null,{"value":"Gear"}]
+1542169611276	Marionette	TRACE	0 -> [0,13,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d1707098-42d7-46ca-8378-b298be49c864","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169611284	Marionette	TRACE	0 <- [1,13,null,{"value":"http://magento2-demo.nexcess.net/gear.html"}]
+1542169611288	Marionette	TRACE	0 -> [0,14,"WebDriver:GetElementText",{"id":"42cb5765-85fd-41e1-8303-d94d2649bc31"}]
+1542169611299	Marionette	TRACE	0 <- [1,14,null,{"value":"Training"}]
+1542169611303	Marionette	TRACE	0 -> [0,15,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"42cb5765-85fd-41e1-8303-d94d2649bc31","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169611310	Marionette	TRACE	0 <- [1,15,null,{"value":"http://magento2-demo.nexcess.net/training.html"}]
+1542169611314	Marionette	TRACE	0 -> [0,16,"WebDriver:GetElementText",{"id":"dcbf097e-e21c-4a2e-9b39-7082855724a2"}]
+1542169611323	Marionette	TRACE	0 <- [1,16,null,{"value":"Sale"}]
+1542169611327	Marionette	TRACE	0 -> [0,17,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"dcbf097e-e21c-4a2e-9b39-7082855724a2","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169611335	Marionette	TRACE	0 <- [1,17,null,{"value":"http://magento2-demo.nexcess.net/sale.html"}]
+1542169611341	Marionette	TRACE	0 -> [0,18,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542169611606	Marionette	TRACE	0 <- [1,18,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABPMAAAN+CAYAAABw6U4mAAAgAElEQVR4nOy9d3Rc5Z24n2xwkWXJhWrcwBTTwQUXOgEM2NgUA8YkEDZ8 ... Vl5NxSSv5nJ93nhCvP+PClV6Z1WJJ70KVbz/Qz3TWmez03Cve8I3XOmxHSLw+W78Oqn5x3YSWSXebdSiXgIiIiIiPGCC//H0eJBiFZoX15AAAAAElFTkSuQmCC"}]
+1542169611658	Marionette	TRACE	0 -> [0,19,"WebDriver:GetElementText",{"id":"4fce09da-53eb-4289-bd52-e9b63df3020c"}]
+1542169611668	Marionette	TRACE	0 <- [1,19,null,{"value":"What's New"}]
+1542169611671	Marionette	TRACE	0 -> [0,20,"WebDriver:ElementClick",{"id":"4fce09da-53eb-4289-bd52-e9b63df3020c"}]
+1542169611694	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://magento2-demo.nexcess.net/
+1542169611869	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://magento2-demo.nexcess.net/
+1542169611870	Marionette	DEBUG	[6442450945] Received DOM event unload for http://magento2-demo.nexcess.net/
+1542169612099	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://magento2-demo.nexcess.net/what-is-new.html
+1542169612706	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://magento2-demo.nexcess.net/what-is-new.html
+1542169612707	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1542169612711	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":".sidebar.sidebar-main"}]
+1542169612718	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3d3b0967-17c2-43a6-bf3e-435915461c4c"}}]
+1542169612722	Marionette	TRACE	0 -> [0,22,"WebDriver:FindElements",{"element":"3d3b0967-17c2-43a6-bf3e-435915461c4c","using":"css selector","value":"ul.items > li.item > a"}]
+1542169612729	Marionette	TRACE	0 <- [1,22,null,[{"element-6066-11e4-a52e-4f735466cecf":"1ae9bbe7-f953-4021-8838-8756949fa0cf"},{"element-6066-11e4-a52e-4f735466c ... ecf":"585a9231-ee59-4b3c-84b8-9e97667e70a9"},{"element-6066-11e4-a52e-4f735466cecf":"bf0438ec-55c7-4f72-9ca2-e1dff59d0e0e"}]]
+1542169612736	Marionette	TRACE	0 -> [0,23,"WebDriver:GetElementText",{"id":"1ae9bbe7-f953-4021-8838-8756949fa0cf"}]
+1542169612751	Marionette	TRACE	0 <- [1,23,null,{"value":"Hoodies & Sweatshirts"}]
+1542169612755	Marionette	TRACE	0 -> [0,24,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"1ae9bbe7-f953-4021-8838-8756949fa0cf","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169612814	Marionette	TRACE	0 <- [1,24,null,{"value":"http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html"}]
+1542169612820	Marionette	TRACE	0 -> [0,25,"WebDriver:GetElementText",{"id":"7df407d5-d28d-40f1-8f5b-546a749e0643"}]
+1542169612844	Marionette	TRACE	0 <- [1,25,null,{"value":"Jackets"}]
+1542169612848	Marionette	TRACE	0 -> [0,26,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"7df407d5-d28d-40f1-8f5b-546a749e0643","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169612871	Marionette	TRACE	0 <- [1,26,null,{"value":"http://magento2-demo.nexcess.net/women/tops-women/jackets-women.html"}]
+1542169612878	Marionette	TRACE	0 -> [0,27,"WebDriver:GetElementText",{"id":"06f2b7d8-0a7c-4925-a129-6190adad343f"}]
+1542169612904	Marionette	TRACE	0 <- [1,27,null,{"value":"Tees"}]
+1542169612909	Marionette	TRACE	0 -> [0,28,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"06f2b7d8-0a7c-4925-a129-6190adad343f","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169612940	Marionette	TRACE	0 <- [1,28,null,{"value":"http://magento2-demo.nexcess.net/women/tops-women/tees-women.html"}]
+1542169612944	Marionette	TRACE	0 -> [0,29,"WebDriver:GetElementText",{"id":"36816b23-367d-40da-a360-8956828672fb"}]
+1542169613011	Marionette	TRACE	0 <- [1,29,null,{"value":"Bras & Tanks"}]
+1542169613020	Marionette	TRACE	0 -> [0,30,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"36816b23-367d-40da-a360-8956828672fb","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169613056	Marionette	TRACE	0 <- [1,30,null,{"value":"http://magento2-demo.nexcess.net/women/tops-women/tanks-women.html"}]
+1542169613069	Marionette	TRACE	0 -> [0,31,"WebDriver:GetElementText",{"id":"7d9d4266-8309-439a-a747-63e0d113c338"}]
+1542169613131	Marionette	TRACE	0 <- [1,31,null,{"value":"Pants"}]
+1542169613143	Marionette	TRACE	0 -> [0,32,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"7d9d4266-8309-439a-a747-63e0d113c338","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169613180	Marionette	TRACE	0 <- [1,32,null,{"value":"http://magento2-demo.nexcess.net/women/bottoms-women/pants-women.html"}]
+1542169613188	Marionette	TRACE	0 -> [0,33,"WebDriver:GetElementText",{"id":"974583f9-dc68-4855-92f3-6b537d1c999b"}]
+1542169613205	Marionette	TRACE	0 <- [1,33,null,{"value":"Shorts"}]
+1542169613211	Marionette	TRACE	0 -> [0,34,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"974583f9-dc68-4855-92f3-6b537d1c999b","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169613262	Marionette	TRACE	0 <- [1,34,null,{"value":"http://magento2-demo.nexcess.net/women/bottoms-women/shorts-women.html"}]
+1542169613273	Marionette	TRACE	0 -> [0,35,"WebDriver:GetElementText",{"id":"9be63e04-69be-4ede-87b0-b3ca77eb8658"}]
+1542169613319	Marionette	TRACE	0 <- [1,35,null,{"value":"Hoodies & Sweatshirts"}]
+1542169613324	Marionette	TRACE	0 -> [0,36,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"9be63e04-69be-4ede-87b0-b3ca77eb8658","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169613388	Marionette	TRACE	0 <- [1,36,null,{"value":"http://magento2-demo.nexcess.net/men/tops-men/hoodies-and-sweatshirts-men.html"}]
+1542169613396	Marionette	TRACE	0 -> [0,37,"WebDriver:GetElementText",{"id":"f5b12c5f-54c5-48db-b02b-189d07b81a60"}]
+1542169613468	Marionette	TRACE	0 <- [1,37,null,{"value":"Jackets"}]
+1542169613472	Marionette	TRACE	0 -> [0,38,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"f5b12c5f-54c5-48db-b02b-189d07b81a60","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169613485	Marionette	TRACE	0 <- [1,38,null,{"value":"http://magento2-demo.nexcess.net/men/tops-men/jackets-men.html"}]
+1542169613491	Marionette	TRACE	0 -> [0,39,"WebDriver:GetElementText",{"id":"a5ebb62a-77a5-4d9c-bf27-e2bae8c7e81f"}]
+1542169613509	Marionette	TRACE	0 <- [1,39,null,{"value":"Tees"}]
+1542169613515	Marionette	TRACE	0 -> [0,40,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a5ebb62a-77a5-4d9c-bf27-e2bae8c7e81f","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169613524	Marionette	TRACE	0 <- [1,40,null,{"value":"http://magento2-demo.nexcess.net/men/tops-men/tees-men.html"}]
+1542169613529	Marionette	TRACE	0 -> [0,41,"WebDriver:GetElementText",{"id":"8863c74b-d7d7-4e8a-b64b-455d22604d63"}]
+1542169613538	Marionette	TRACE	0 <- [1,41,null,{"value":"Tanks"}]
+1542169613545	Marionette	TRACE	0 -> [0,42,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"8863c74b-d7d7-4e8a-b64b-455d22604d63","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169613555	Marionette	TRACE	0 <- [1,42,null,{"value":"http://magento2-demo.nexcess.net/men/tops-men/tanks-men.html"}]
+1542169613559	Marionette	TRACE	0 -> [0,43,"WebDriver:GetElementText",{"id":"585a9231-ee59-4b3c-84b8-9e97667e70a9"}]
+1542169613573	Marionette	TRACE	0 <- [1,43,null,{"value":"Pants"}]
+1542169613599	Marionette	TRACE	0 -> [0,44,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"585a9231-ee59-4b3c-84b8-9e97667e70a9","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169613691	Marionette	TRACE	0 <- [1,44,null,{"value":"http://magento2-demo.nexcess.net/men/bottoms-men/pants-men.html"}]
+1542169613699	Marionette	TRACE	0 -> [0,45,"WebDriver:GetElementText",{"id":"bf0438ec-55c7-4f72-9ca2-e1dff59d0e0e"}]
+1542169613716	Marionette	TRACE	0 <- [1,45,null,{"value":"Shorts"}]
+1542169613720	Marionette	TRACE	0 -> [0,46,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"bf0438ec-55c7-4f72-9ca2-e1dff59d0e0e","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169613727	Marionette	TRACE	0 <- [1,46,null,{"value":"http://magento2-demo.nexcess.net/men/bottoms-men/shorts-men.html"}]
+1542169613733	Marionette	TRACE	0 -> [0,47,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542169613947	Marionette	TRACE	0 <- [1,47,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABPMAAAN+CAYAAABw6U4mAAAgAElEQVR4nOzdaZCkB33nefxi3zhid18xGzM74dmZmCN2Zr0zS3tlBJhj ... wFBrCYe+n5oZbBIf2Pv5VGBnrbaW7JxVDnjab+HYoa12LsisFoElFS/TX5ZbuQGzYSkbycyMTNKPP96e9rAH544Of6ret/AP7N717F6kV5AAAAAElFTkSuQmCC"}]
+1542169614014	Marionette	TRACE	0 -> [0,48,"WebDriver:GetElementText",{"id":"1ae9bbe7-f953-4021-8838-8756949fa0cf"}]
+1542169614020	Marionette	TRACE	0 <- [1,48,null,{"value":"Hoodies & Sweatshirts"}]
+1542169614023	Marionette	TRACE	0 -> [0,49,"WebDriver:ElementClick",{"id":"1ae9bbe7-f953-4021-8838-8756949fa0cf"}]
+1542169614040	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://magento2-demo.nexcess.net/what-is-new.html
+1542169614210	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://magento2-demo.nexcess.net/what-is-new.html
+1542169614211	Marionette	DEBUG	[6442450945] Received DOM event unload for http://magento2-demo.nexcess.net/what-is-new.html
+1542169614693	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html
+1542169615382	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html
+1542169615383	Marionette	TRACE	0 <- [1,49,null,{"value":null}]
+1542169615388	Marionette	TRACE	0 -> [0,50,"WebDriver:FindElement",{"using":"css selector","value":"div.products.wrapper.grid.products-grid"}]
+1542169615392	Marionette	TRACE	0 <- [1,50,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6e40273b-ef18-4136-9168-b215ef7411fa"}}]
+1542169615395	Marionette	TRACE	0 -> [0,51,"WebDriver:FindElements",{"element":"6e40273b-ef18-4136-9168-b215ef7411fa","using":"css selector","value":".product-item-link"}]
+1542169615402	Marionette	TRACE	0 <- [1,51,null,[{"element-6066-11e4-a52e-4f735466cecf":"76c51a3e-af87-40f4-b301-0d58b4421ca2"},{"element-6066-11e4-a52e-4f735466c ... ecf":"820a31e7-c673-4426-99bf-47b258a23eee"},{"element-6066-11e4-a52e-4f735466cecf":"4df55e8a-2c5c-4380-9822-859edd24a01c"}]]
+1542169615407	Marionette	TRACE	0 -> [0,52,"WebDriver:GetElementText",{"id":"76c51a3e-af87-40f4-b301-0d58b4421ca2"}]
+1542169615417	Marionette	TRACE	0 <- [1,52,null,{"value":"Mona Pullover Hoodlie"}]
+1542169615421	Marionette	TRACE	0 -> [0,53,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"76c51a3e-af87-40f4-b301-0d58b4421ca2","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169615517	Marionette	TRACE	0 <- [1,53,null,{"value":"http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html"}]
+1542169615524	Marionette	TRACE	0 -> [0,54,"WebDriver:GetElementText",{"id":"f6ecff51-597f-4f86-b588-de9636a396fc"}]
+1542169615556	Marionette	TRACE	0 <- [1,54,null,{"value":"Eos V-Neck Hoodie"}]
+1542169615562	Marionette	TRACE	0 -> [0,55,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"f6ecff51-597f-4f86-b588-de9636a396fc","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169615589	Marionette	TRACE	0 <- [1,55,null,{"value":"http://magento2-demo.nexcess.net/eos-v-neck-hoodie.html"}]
+1542169615594	Marionette	TRACE	0 -> [0,56,"WebDriver:GetElementText",{"id":"0209cd49-b739-42a9-a68b-0b31aa033b8b"}]
+1542169615619	Marionette	TRACE	0 <- [1,56,null,{"value":"Helena Hooded Fleece"}]
+1542169615624	Marionette	TRACE	0 -> [0,57,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"0209cd49-b739-42a9-a68b-0b31aa033b8b","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169615690	Marionette	TRACE	0 <- [1,57,null,{"value":"http://magento2-demo.nexcess.net/helena-hooded-fleece.html"}]
+1542169615696	Marionette	TRACE	0 -> [0,58,"WebDriver:GetElementText",{"id":"60f16b7e-9484-4df8-b10d-c9a9735f653a"}]
+1542169615766	Marionette	TRACE	0 <- [1,58,null,{"value":"Ariel Roll Sleeve Sweatshirt"}]
+1542169615770	Marionette	TRACE	0 -> [0,59,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"60f16b7e-9484-4df8-b10d-c9a9735f653a","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169615842	Marionette	TRACE	0 <- [1,59,null,{"value":"http://magento2-demo.nexcess.net/ariel-roll-sleeve-sweatshirt.html"}]
+1542169615847	Marionette	TRACE	0 -> [0,60,"WebDriver:GetElementText",{"id":"b5510133-dfed-4850-aecf-f63f6a3339e7"}]
+1542169615878	Marionette	TRACE	0 <- [1,60,null,{"value":"Cassia Funnel Sweatshirt"}]
+1542169615883	Marionette	TRACE	0 -> [0,61,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"b5510133-dfed-4850-aecf-f63f6a3339e7","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169615918	Marionette	TRACE	0 <- [1,61,null,{"value":"http://magento2-demo.nexcess.net/cassia-funnel-sweatshirt.html"}]
+1542169615927	Marionette	TRACE	0 -> [0,62,"WebDriver:GetElementText",{"id":"2ac4d24e-ce05-4678-9775-cdc8b40f37d0"}]
+1542169615989	Marionette	TRACE	0 <- [1,62,null,{"value":"Phoebe Zipper Sweatshirt"}]
+1542169615994	Marionette	TRACE	0 -> [0,63,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2ac4d24e-ce05-4678-9775-cdc8b40f37d0","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169616030	Marionette	TRACE	0 <- [1,63,null,{"value":"http://magento2-demo.nexcess.net/phoebe-zipper-sweatshirt.html"}]
+1542169616035	Marionette	TRACE	0 -> [0,64,"WebDriver:GetElementText",{"id":"2ed8f2e7-2d98-41ef-8e38-e497170d2347"}]
+1542169616086	Marionette	TRACE	0 <- [1,64,null,{"value":"Daphne Full-Zip Hoodie"}]
+1542169616091	Marionette	TRACE	0 -> [0,65,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2ed8f2e7-2d98-41ef-8e38-e497170d2347","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169616162	Marionette	TRACE	0 <- [1,65,null,{"value":"http://magento2-demo.nexcess.net/daphne-full-zip-hoodie.html"}]
+1542169616168	Marionette	TRACE	0 -> [0,66,"WebDriver:GetElementText",{"id":"820a31e7-c673-4426-99bf-47b258a23eee"}]
+1542169616224	Marionette	TRACE	0 <- [1,66,null,{"value":"Selene Yoga Hoodie"}]
+1542169616229	Marionette	TRACE	0 -> [0,67,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"820a31e7-c673-4426-99bf-47b258a23eee","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169616272	Marionette	TRACE	0 <- [1,67,null,{"value":"http://magento2-demo.nexcess.net/selene-yoga-hoodie.html"}]
+1542169616278	Marionette	TRACE	0 -> [0,68,"WebDriver:GetElementText",{"id":"4df55e8a-2c5c-4380-9822-859edd24a01c"}]
+1542169616310	Marionette	TRACE	0 <- [1,68,null,{"value":"Miko Pullover Hoodie"}]
+1542169616316	Marionette	TRACE	0 -> [0,69,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"4df55e8a-2c5c-4380-9822-859edd24a01c","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169616333	Marionette	TRACE	0 <- [1,69,null,{"value":"http://magento2-demo.nexcess.net/miko-pullover-hoodie.html"}]
+1542169616339	Marionette	TRACE	0 -> [0,70,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542169616499	Marionette	TRACE	0 <- [1,70,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABPMAAAN+CAYAAABw6U4mAAAgAElEQVR4nOzdaZRb9b0m6pwP90vWuvd+yrmr+/Y6fbtXd591u+/pczo+ ... wDAAAAAAAALEGYBwAAAAAAAFiCMA8AAAAAAACwBGEeAAAAAAAAYAnCPAAAAAAAAMAShHkAAAAAAACAJQjzAAAAAAAAAEv8f6IK29MKlspLAAAAAElFTkSuQmCC"}]
+1542169616533	Marionette	TRACE	0 -> [0,71,"WebDriver:GetElementText",{"id":"76c51a3e-af87-40f4-b301-0d58b4421ca2"}]
+1542169616619	Marionette	TRACE	0 <- [1,71,null,{"value":"Mona Pullover Hoodlie"}]
+1542169616622	Marionette	TRACE	0 -> [0,72,"WebDriver:ElementClick",{"id":"76c51a3e-af87-40f4-b301-0d58b4421ca2"}]
+1542169616668	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html
+1542169616834	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html
+1542169616837	Marionette	DEBUG	[6442450945] Received DOM event unload for http://magento2-demo.nexcess.net/women/tops-women/hoodies-and-sweatshirts-women.html
+1542169617056	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169617713	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169617715	Marionette	TRACE	0 <- [1,72,null,{"value":null}]
+1542169617724	Marionette	TRACE	0 -> [0,73,"WebDriver:FindElement",{"using":"css selector","value":".swatch-attribute.color"}]
+1542169617735	Marionette	TRACE	0 <- [1,73,{"error":"no such element","message":"Unable to locate element: .swatch-attribute.color","stacktrace":"WebDriverError@c ... entError@chrome://marionette/content/error.js:388:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1542169618742	Marionette	TRACE	0 -> [0,74,"WebDriver:FindElement",{"using":"css selector","value":".swatch-attribute.color"}]
+1542169618819	Marionette	TRACE	0 <- [1,74,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c52c28ae-aa55-48ea-8f76-6ac5fb6c73cd"}}]
+1542169618824	Marionette	TRACE	0 -> [0,75,"WebDriver:FindElements",{"element":"c52c28ae-aa55-48ea-8f76-6ac5fb6c73cd","using":"css selector","value":".swatch-option.color"}]
+1542169618873	Marionette	TRACE	0 <- [1,75,null,[{"element-6066-11e4-a52e-4f735466cecf":"6c421898-4ee9-44f6-876b-acff8515815f"},{"element-6066-11e4-a52e-4f735466cecf":"f7c38a33-81fd-4720-878c-e2ccbc5144a6"},{"element-6066-11e4-a52e-4f735466cecf":"2475ae9b-0f05-4f5c-92ff-2d6b8daad61f"}]]
+1542169618879	Marionette	TRACE	0 -> [0,76,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"6c421898-4ee9-44f6-876b-acff8515815f","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169618891	Marionette	TRACE	0 <- [1,76,null,{"value":"Green"}]
+1542169618897	Marionette	TRACE	0 -> [0,77,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"f7c38a33-81fd-4720-878c-e2ccbc5144a6","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169618919	Marionette	TRACE	0 <- [1,77,null,{"value":"Orange"}]
+1542169618925	Marionette	TRACE	0 -> [0,78,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2475ae9b-0f05-4f5c-92ff-2d6b8daad61f","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619026	Marionette	TRACE	0 <- [1,78,null,{"value":"Purple"}]
+1542169619033	Marionette	TRACE	0 -> [0,79,"WebDriver:FindElement",{"using":"css selector","value":".swatch-attribute.size"}]
+1542169619039	Marionette	TRACE	0 <- [1,79,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"39b5f3cd-65b1-410d-8163-02cbdb136a3c"}}]
+1542169619049	Marionette	TRACE	0 -> [0,80,"WebDriver:FindElements",{"element":"39b5f3cd-65b1-410d-8163-02cbdb136a3c","using":"css selector","value":".swatch-option.text"}]
+1542169619098	Marionette	TRACE	0 <- [1,80,null,[{"element-6066-11e4-a52e-4f735466cecf":"fdfa2be0-b7e7-4902-954e-67046aef9cee"},{"element-6066-11e4-a52e-4f735466c ... ecf":"cfcbde4b-411e-4c57-854c-aa0b42caed2f"},{"element-6066-11e4-a52e-4f735466cecf":"bf1915cd-c73e-466a-a638-d6d85b96e84d"}]]
+1542169619106	Marionette	TRACE	0 -> [0,81,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"fdfa2be0-b7e7-4902-954e-67046aef9cee","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619142	Marionette	TRACE	0 <- [1,81,null,{"value":"XS"}]
+1542169619147	Marionette	TRACE	0 -> [0,82,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"805cfd61-5af5-4be0-81ce-a35140b1cde2","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619157	Marionette	TRACE	0 <- [1,82,null,{"value":"S"}]
+1542169619162	Marionette	TRACE	0 -> [0,83,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d2d8e235-a73c-4f54-b7ed-2d80d0c328b2","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619171	Marionette	TRACE	0 <- [1,83,null,{"value":"M"}]
+1542169619176	Marionette	TRACE	0 -> [0,84,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"cfcbde4b-411e-4c57-854c-aa0b42caed2f","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619187	Marionette	TRACE	0 <- [1,84,null,{"value":"L"}]
+1542169619191	Marionette	TRACE	0 -> [0,85,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"bf1915cd-c73e-466a-a638-d6d85b96e84d","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619199	Marionette	TRACE	0 <- [1,85,null,{"value":"XL"}]
+1542169619205	Marionette	TRACE	0 -> [0,86,"WebDriver:TakeScreenshot",{"full":false,"highlights":[],"id":null}]
+1542169619326	Marionette	TRACE	0 <- [1,86,null,{"value":"iVBORw0KGgoAAAANSUhEUgAABPMAAAN+CAYAAABw6U4mAAAgAElEQVR4nOzdaXSUBb7v+94v7pte6977qvdd59y99jn73LN3793dtkM0 ... Ti5WBMHAAAADxJREFUd5WRdrSBBquagWEXo8/GfHJ+cpLJ8YnAQz45PvEr180L838UhAgICAgICAgICAgICAgICPwu/hdxCRxrLxLB+wAAAABJRU5ErkJggg=="}]
+1542169619353	Marionette	TRACE	0 -> [0,87,"WebDriver:FindElement",{"using":"css selector","value":".swatch-attribute.color"}]
+1542169619357	Marionette	TRACE	0 <- [1,87,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c52c28ae-aa55-48ea-8f76-6ac5fb6c73cd"}}]
+1542169619360	Marionette	TRACE	0 -> [0,88,"WebDriver:FindElements",{"element":"c52c28ae-aa55-48ea-8f76-6ac5fb6c73cd","using":"css selector","value":".swatch-option.color"}]
+1542169619363	Marionette	TRACE	0 <- [1,88,null,[{"element-6066-11e4-a52e-4f735466cecf":"6c421898-4ee9-44f6-876b-acff8515815f"},{"element-6066-11e4-a52e-4f735466cecf":"f7c38a33-81fd-4720-878c-e2ccbc5144a6"},{"element-6066-11e4-a52e-4f735466cecf":"2475ae9b-0f05-4f5c-92ff-2d6b8daad61f"}]]
+1542169619367	Marionette	TRACE	0 -> [0,89,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"6c421898-4ee9-44f6-876b-acff8515815f","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619376	Marionette	TRACE	0 <- [1,89,null,{"value":"Green"}]
+1542169619379	Marionette	TRACE	0 -> [0,90,"WebDriver:ElementClick",{"id":"6c421898-4ee9-44f6-876b-acff8515815f"}]
+1542169619637	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1542169619638	Marionette	TRACE	0 <- [1,90,null,{"value":null}]
+1542169619641	Marionette	TRACE	0 -> [0,91,"WebDriver:FindElement",{"using":"css selector","value":".swatch-attribute.size"}]
+1542169619644	Marionette	TRACE	0 <- [1,91,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"39b5f3cd-65b1-410d-8163-02cbdb136a3c"}}]
+1542169619649	Marionette	TRACE	0 -> [0,92,"WebDriver:FindElements",{"element":"39b5f3cd-65b1-410d-8163-02cbdb136a3c","using":"css selector","value":".swatch-option.text"}]
+1542169619655	Marionette	TRACE	0 <- [1,92,null,[{"element-6066-11e4-a52e-4f735466cecf":"fdfa2be0-b7e7-4902-954e-67046aef9cee"},{"element-6066-11e4-a52e-4f735466c ... ecf":"cfcbde4b-411e-4c57-854c-aa0b42caed2f"},{"element-6066-11e4-a52e-4f735466cecf":"bf1915cd-c73e-466a-a638-d6d85b96e84d"}]]
+1542169619659	Marionette	TRACE	0 -> [0,93,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"fdfa2be0-b7e7-4902-954e-67046aef9cee","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619667	Marionette	TRACE	0 <- [1,93,null,{"value":"XS"}]
+1542169619671	Marionette	TRACE	0 -> [0,94,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"805cfd61-5af5-4be0-81ce-a35140b1cde2","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619680	Marionette	TRACE	0 <- [1,94,null,{"value":"S"}]
+1542169619684	Marionette	TRACE	0 -> [0,95,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d2d8e235-a73c-4f54-b7ed-2d80d0c328b2","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619692	Marionette	TRACE	0 <- [1,95,null,{"value":"M"}]
+1542169619696	Marionette	TRACE	0 -> [0,96,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"cfcbde4b-411e-4c57-854c-aa0b42caed2f","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619703	Marionette	TRACE	0 <- [1,96,null,{"value":"L"}]
+1542169619707	Marionette	TRACE	0 -> [0,97,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"bf1915cd-c73e-466a-a638-d6d85b96e84d","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1542169619716	Marionette	TRACE	0 <- [1,97,null,{"value":"XL"}]
+1542169619719	Marionette	TRACE	0 -> [0,98,"WebDriver:ElementClick",{"id":"bf1915cd-c73e-466a-a638-d6d85b96e84d"}]
+1542169619972	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1542169619973	Marionette	TRACE	0 <- [1,98,null,{"value":null}]
+1542169619976	Marionette	TRACE	0 -> [0,99,"WebDriver:FindElement",{"using":"css selector","value":"input#qty"}]
+1542169619979	Marionette	TRACE	0 <- [1,99,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a29edfd1-381f-4278-8bec-a2257532412b"}}]
+1542169619983	Marionette	TRACE	0 -> [0,100,"WebDriver:ElementClear",{"id":"a29edfd1-381f-4278-8bec-a2257532412b"}]
+1542169619999	Marionette	TRACE	0 <- [1,100,null,{"value":null}]
+1542169620004	Marionette	TRACE	0 -> [0,101,"WebDriver:ElementSendKeys",{"id":"a29edfd1-381f-4278-8bec-a2257532412b","text":"5","value":["5"]}]
+1542169620040	Marionette	TRACE	0 <- [1,101,null,{"value":null}]
+1542169620044	Marionette	TRACE	0 -> [0,102,"WebDriver:FindElement",{"using":"css selector","value":"#product-addtocart-button"}]
+1542169620051	Marionette	TRACE	0 <- [1,102,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6511576d-6e29-4d20-bc74-ce322a1c58aa"}}]
+1542169620055	Marionette	TRACE	0 -> [0,103,"WebDriver:ElementClick",{"id":"6511576d-6e29-4d20-bc74-ce322a1c58aa"}]
+1542169620137	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+JavaScript error: http://magento2-demo.nexcess.net/pub/static/frontend/Magento/luma/en_US/Magento_Customer/js/customer-data.js, line 86: Error: [object Object]
+1542169621216	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169621217	Marionette	DEBUG	[6442450945] Received DOM event unload for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169621427	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169621866	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://magento2-demo.nexcess.net/mona-pullover-hoodlie.html
+1542169621867	Marionette	TRACE	0 <- [1,103,null,{"value":null}]
+1542169621899	Marionette	DEBUG	Closed connection 0
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 15976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/sr1542169659074	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1542169659074	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1542169659075	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1542169659075	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1542169659075	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1542169659075	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1542169659075	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1542169659076	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1542169659076	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1542169659076	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1542169659077	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1542169659077	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1542169659078	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1542169659078	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1542169659078	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1542169659078	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1542169659079	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1542169659079	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1542169659080	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1542169659080	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1542169659080	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1542169659080	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1542169659081	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1542169659081	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1542169659081	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1542169659081	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1542169659081	Marionette	INFO	Stopped listening on port 59192
+1542169659082	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 12076
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

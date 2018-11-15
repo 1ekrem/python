@@ -70,3 +70,30 @@
 11/08/2018 06:45:00 PM - LoginPage - INFO: Element Found with locator: commit and locatorType: name
 11/08/2018 06:45:02 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
 11/08/2018 06:45:02 PM - LoginPage - INFO: Element not found
+11/10/2018 09:09:35 PM - LoginPage - INFO: Element Found with locator: Login and locatorType: link
+11/10/2018 09:09:38 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+11/10/2018 09:09:38 PM - LoginPage - INFO: Element Found with locator: user_email and locatorType: id
+11/10/2018 09:09:38 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+11/10/2018 09:09:38 PM - LoginPage - INFO: Element Found with locator: user_password and locatorType: id
+11/10/2018 09:09:38 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+11/10/2018 09:09:38 PM - LoginPage - INFO: Element Found with locator: commit and locatorType: name
+11/10/2018 09:09:40 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+11/10/2018 09:09:40 PM - LoginPage - INFO: Element not found
+11/10/2018 09:09:50 PM - LoginPage - INFO: Element not Found with locator: Login and locatorType: link
+11/10/2018 09:09:50 PM - LoginPage - INFO: Cannot click on the element with locator: Login locatorType: link
+11/10/2018 09:09:50 PM - LoginPage - INFO: Element Found with locator: user_email and locatorType: id
+11/10/2018 09:09:50 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+11/10/2018 09:09:50 PM - LoginPage - INFO: Element Found with locator: user_password and locatorType: id
+11/10/2018 09:09:50 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+11/10/2018 09:09:50 PM - LoginPage - INFO: Element Found with locator: commit and locatorType: name
+11/10/2018 09:09:50 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+11/10/2018 09:09:50 PM - LoginPage - INFO: Element not found
+11/10/2018 09:10:44 PM - LoginPage - INFO: Element Found with locator: Login and locatorType: link
+11/10/2018 09:10:46 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+11/10/2018 09:10:46 PM - LoginPage - INFO: Element Found with locator: user_email and locatorType: id
+11/10/2018 09:10:46 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+11/10/2018 09:10:46 PM - LoginPage - INFO: Element Found with locator: user_password and locatorType: id
+11/10/2018 09:10:46 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+11/10/2018 09:10:46 PM - LoginPage - INFO: Element Found with locator: commit and locatorType: name
+11/10/2018 09:10:48 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+11/10/2018 09:10:48 PM - LoginPage - INFO: Element not found
