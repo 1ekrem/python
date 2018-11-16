@@ -61,7 +61,7 @@ logger.log("Available sizes: {}".format(",".join(available_sizes)), "item_page")
 
 item_page.screenshot("./py-class-proj2-master/item_page.png")
 
-item_page.pick_color(available_colors[2])
+item_page.pick_color(available_colors[1])
 item_page.pick_size(available_sizes[2])
 
 random_nr = random.randint(1,9)
