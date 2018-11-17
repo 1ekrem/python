@@ -73,7 +73,7 @@ time.sleep(3)
 item_page.click_checkout_box()
 
 # Go to Checkout page
-item_page.go_to_checkout_page()
+item_page.click_go_to_checkout()
 
 # Go to the next step and fill out the form
 item_page.type_email_address(utex.username.value)

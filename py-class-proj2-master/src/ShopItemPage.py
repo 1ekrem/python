@@ -8,6 +8,7 @@ import util_excel as utex
 
 class ShopItemPageModel(WebDriverContainer):
     """It will contain all Selenium related scripts"""
+
     __color_container_selector = (By.CSS_SELECTOR, ".swatch-attribute.color")
     __color_option_selector = (By.CSS_SELECTOR, ".swatch-option.color")
 
@@ -137,6 +138,7 @@ class ShopItemPageModel(WebDriverContainer):
 
 class ShopItemPage(WebDriverContainer):
     __title_attr__ = "option-label"
+    __rating_attr__= "title"
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -159,14 +161,12 @@ class ShopItemPage(WebDriverContainer):
         return sizes
 
     def pick_color(self, color):
-        selected_color_option = filter_by_attr(
-            self.__page__.available_colors, self.__title_attr__, color)
+        selected_color_option = filter_by_attr(self.__page__.available_colors, self.__title_attr__, color)
         selected_color_option.click()
         print("Color is picked")
 
     def pick_size(self, size):
-        selected_size_option = filter_by_attr(
-            self.__page__.available_sizes, self.__title_attr__, size)
+        selected_size_option = filter_by_attr(self.__page__.available_sizes, self.__title_attr__, size)
         selected_size_option.click()
         print("Size is picked")
     
@@ -184,7 +184,7 @@ class ShopItemPage(WebDriverContainer):
         click_checkbox = self.__page__.checkout_box
         click_checkbox.click()
 
-    def go_to_checkout_page(self):
+    def click_go_to_checkout(self):
         click_go_to_checkout = self.__page__.go_to_checkout
         click_go_to_checkout.click()
     

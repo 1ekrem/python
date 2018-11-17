@@ -18,11 +18,9 @@ class HomePageModel(WebDriverContainer):
 
     @property
     def section_links(self):
-        page_container = self._try_find_element(
-            self.__page_container_selector, 20)
+        page_container = self._try_find_element(self.__page_container_selector, 20)
 
-        links = self._try_find_elements_of(
-            page_container, self.__link_selector, 20)
+        links = self._try_find_elements_of(page_container, self.__link_selector, 20)
 
         return links
 
