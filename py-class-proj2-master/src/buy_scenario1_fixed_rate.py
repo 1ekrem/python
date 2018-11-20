@@ -22,7 +22,7 @@ section_links = home_page.section_links
 logger.log(stringify_links(section_links), "home_page")
 
 # only now the home page is fully loaded
-home_page.screenshot("./py-class-proj2-master/homepage.png")
+home_page.screenshot("./py-class-proj2-master/screenshots/homepage.png")
 
 # now select a section for the next step
 section_name = "What's New"
@@ -33,7 +33,7 @@ section_page = shop.load_section_page(section_link)
 subsection_links = section_page.subsection_links
 
 logger.log(stringify_links(subsection_links), "section_page")
-section_page.screenshot("./py-class-proj2-master/section_page.png")
+section_page.screenshot("./py-class-proj2-master/screenshots/section_page.png")
 
 # now select a subsection for the next step
 subsection_name = "Hoodies & Sweatshirts"
@@ -44,7 +44,7 @@ subsection_page = shop.load_subsection_page(subsection_link)
 item_links = subsection_page.item_links
 
 logger.log(stringify_links(item_links), "subsection_page")
-subsection_page.screenshot("./py-class-proj2-master/subsection_page.png")
+subsection_page.screenshot("./py-class-proj2-master/screenshots/subsection_page.png")
 
 # now select an item for the next step
 item_name = "Mona Pullover Hoodlie"
@@ -59,12 +59,12 @@ available_sizes = item_page.available_size_names
 logger.log("Available colors: {}".format(",".join(available_colors)), "item_page")
 logger.log("Available sizes: {}".format(",".join(available_sizes)), "item_page")
 
-item_page.screenshot("./py-class-proj2-master/item_page.png")
+item_page.screenshot("./py-class-proj2-master/screenshots/item_page.png")
 
-item_page.pick_color(available_colors[1])
+item_page.pick_color(available_colors[0])
 item_page.pick_size(available_sizes[2])
 
-random_nr = random.randint(1,9)
+random_nr = random.randint(1,4)
 item_page.pick_quantity(random_nr)
 item_page.click_add_to_cart()
 time.sleep(3)
@@ -76,16 +76,17 @@ item_page.click_checkout_box()
 item_page.click_go_to_checkout()
 
 # Go to the next step and fill out the form
-item_page.type_email_address(utex.username.value)
-item_page.type_firstname(utex.firstname.value)
-item_page.type_lastname(utex.lastname.value)
-item_page.type_company(utex.company.value)
-item_page.type_street(utex.street.value)
-item_page.type_city(utex.city.value)
-item_page.select_state(utex.state.value)
-item_page.type_postcode(utex.postcode.value)
-item_page.select_country(utex.country_id.value)
-item_page.type_phonenumber(utex.phonenumber.value)
+first_row = utex.read_shipping_values()[0]
+item_page.type_email_address(first_row["username"])
+item_page.type_firstname(first_row["firstname"])
+item_page.type_lastname(first_row["lastname"])
+item_page.type_company(first_row["company"])
+item_page.type_street(first_row["street"])
+item_page.type_city(first_row["city"])
+item_page.select_state(first_row["state"])
+item_page.type_postcode(first_row["postcode"])
+item_page.select_country(first_row["country_id"])
+item_page.type_phonenumber(first_row["telephone"])
 
 # Select Shipping Method
 item_page.click_flat_rate()
@@ -99,5 +100,5 @@ item_page.click_place_order_button()
 time.sleep(4)
 
 # Take Screenshot of  Your Confirmation Number
-item_page.screenshot("./py-class-proj2-master/Order_Confirmation.png")
+item_page.screenshot("./py-class-proj2-master/screenshots/order_confirmation.png")
 
