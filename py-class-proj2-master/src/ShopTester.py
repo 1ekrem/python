@@ -45,3 +45,14 @@ class ShopTester(WebDriverContainer):
         search_textbox.send_keys(Keys.ENTER)
 
         return ShopSearchPage(self._driver)
+    
+    def find_highest_rated_item(self):
+        item_rated = []
+        available_item = self._try_find_elements("[class = 'item product product-item']", 20)
+        for item in available_item:
+            item_rating = item.__item_rating_locator
+            item_rated.append(item_rating)
+            highest_rated_item = max(item_rated).get_attribute("class")
+            print(highest_rated_item)
+        
+        return highest_rated_item

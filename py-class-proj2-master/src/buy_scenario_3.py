@@ -15,12 +15,12 @@ driver = webdriver.Chrome()
 driver.maximize_window()
 driver.implicitly_wait(20)
 
-sleep = time.sleep(3)
-
 baseURL = "http://magento2-demo.nexcess.net/"
+
 driver.get(baseURL)
 
 gear_tab = "[href='http://magento2-demo.nexcess.net/gear.html']"
+
 driver.find_element(By.CSS_SELECTOR, gear_tab).click()
 driver.find_element_by_link_text("Watches").click()
 
@@ -56,10 +56,18 @@ add_to_cart_locator.click()
 print("Item(s) are sent to the Shopping Cart")
 
 # Click Checkout Box
-checkout_box_locator = driver.find_element(By.CSS_SELECTOR, "a.action.showcart")
+__checkout_box_selector = (By.CSS_SELECTOR, "a.action.showcart")
+checkout_box_locator = driver.find_element(__checkout_box_selector)
 checkout_box_locator.click()
 
 # Click Go to Checkout    
 __go_to_checkout_selector = (By.CSS_SELECTOR, "button#top-cart-btn-checkout")
 go_to_checkout_locator = driver.find_element(__go_to_checkout_selector)
 go_to_checkout_locator.click()
+
+
+
+
+    
+        
+

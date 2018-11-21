@@ -4,5 +4,8 @@
 # print(add_this(2,3))
 
 
-x = '           Ekrem Ersayin     '
+# x = '           Ekrem Ersayin     '
 
+list = ['25%','50%', '90%']
+
+print(max(list))

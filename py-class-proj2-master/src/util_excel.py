@@ -1,7 +1,5 @@
 import openpyxl
 
-import openpyxl
-
 def read_row_values(row):
     row_values=[]
     for cell in row:

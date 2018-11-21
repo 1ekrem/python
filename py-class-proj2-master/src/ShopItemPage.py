@@ -8,6 +8,9 @@ import util_excel as utex
 
 class ShopItemPageModel(WebDriverContainer):
     """It will contain all Selenium related scripts"""
+    __items_page_multiple_element_selector = (By.CSS_SELECTOR, "[class = 'item product product-item']")
+    __item_rating_locator = (By.CSS_SELECTOR, "[class = 'rating-result']")
+    __item_selector = (By.CSS_SELECTOR, "[class = 'product-item-info']")
 
     __color_container_selector = (By.CSS_SELECTOR, ".swatch-attribute.color")
     __color_option_selector = (By.CSS_SELECTOR, ".swatch-option.color")
@@ -53,6 +56,18 @@ class ShopItemPageModel(WebDriverContainer):
         color_options = self._try_find_elements_of(color_container, self.__color_option_selector, 20)
 
         return color_options
+
+    @property
+    def available_items(self):
+        return self._try_find_elements(self.__items_page_multiple_element_selector,20)
+
+    @property
+    def item_rating(self):
+        return self._try_find_element(self.__item_rating_locator, 20)
+    
+    @property 
+    def item_selector(self):
+        return self._try_find_element(self.__item_selector, 20)
 
     @property
     def available_sizes(self):
@@ -159,6 +174,21 @@ class ShopItemPage(WebDriverContainer):
             sizes.append(size_option.get_attribute(self.__title_attr__))
 
         return sizes
+    
+    def find_highest_rated_item(self):
+        item_rated = []
+        available_item = self._try_find_elements("[class = 'item product product-item']")
+        for item in available_item:
+            item_rating = item.__item_rating_locator
+            item_rated.append(item_rating)
+            highest_rated_item = max(item_rated).get_attribute("class")
+            print(highest_rated_item)
+        return highest_rated_item
+        
+    def click_highest_rated_item(self):
+            self.find_highest_rated_item().click()
+            
+                #self._try_find_element("[class = 'product-item-info']").click()
 
     def pick_color(self, color):
         selected_color_option = filter_by_attr(self.__page__.available_colors, self.__title_attr__, color)
