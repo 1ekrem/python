@@ -57,13 +57,23 @@ if max(items_rating) == current_max_number:
         driver.save_screenshot("C:\PythonClass/py-class-proj2-master/screenshots/highest_item.png")
         sleep
 
-# Type Quantity
-quantity_locator = driver.find_element_by_id("qty")
-quantity_locator.clear()
-random_nr = random.randint(1,5)
-quantity_locator.send_keys(random_nr)
-print("Quantity is added")
-sleep
+# #Select Color
+# color_locator = driver.find_element(By.CSS_SELECTOR, "[option-label = 'Black']")
+# color_locator.click()
+# print("Color is selected!")
+# sleep
+
+# #Select Size
+# size_locator = driver.find_element(By.CSS_SELECTOR, "[option-id='168']")
+# size_locator.click()
+
+# # Type Quantity
+# quantity_locator = driver.find_element_by_id("qty")
+# quantity_locator.clear()
+# random_nr = random.randint(1,5)
+# quantity_locator.send_keys(random_nr)
+# print("Quantity is added")
+# sleep
 
 # # Click Add to Cart
 # add_to_cart_locator = driver.find_element_by_id("product-addtocart-button")
