@@ -14,15 +14,15 @@ import ShopItemPage
 driver = webdriver.Chrome()
 driver.maximize_window()
 
-sleep = time.sleep(3)
+sleep = time.sleep(5)
 
 baseURL = "http://magento2-demo.nexcess.net/"
 driver.get(baseURL)
 
-menu_section = "Gear"
+menu_section = "What's New"
 driver.find_element_by_link_text(menu_section).click()
 
-menu_subsection = "Watches"
+menu_subsection = "Bras & Tanks"
 driver.find_element_by_link_text(menu_subsection).click()
 
 # Find the highest rated item in the section and select the item. 
@@ -49,30 +49,12 @@ for number in items_rating:
                 current_max_number = number
 print("The highest rated item: ", current_max_number)
 
-current_min_number = items_rating[0]
-for number in items_rating:
-        if number < current_min_number:
-                current_min_number = number
-print("The lowest rated item: ", current_min_number)
-
 if max(items_rating) == current_max_number:
-        max_item = max(items_rating)==current_max_number
-        print("Found the highest rated item :", max_item, "-", current_max_number, dict1[current_max_number] )
+        print("Found the highest rated item : ", current_max_number, dict1[current_max_number] )
         highest_rated_item_locator = driver.find_element(By.LINK_TEXT, dict1[current_max_number])
         highest_rated_item_locator.click()
         print("Highest rated item is selected!")
         driver.save_screenshot("C:\PythonClass/py-class-proj2-master/screenshots/highest_item.png")
-        sleep
-
-driver.execute_script("window.history.go(-1)")
-
-if min(items_rating) == current_min_number:
-        min_item = min(items_rating)==current_min_number
-        print("Found the lowest rated item :", min_item, "-", current_min_number, dict1[current_min_number])
-        lowest_rated_item_locator = driver.find_element(By.LINK_TEXT, dict1[current_min_number])
-        lowest_rated_item_locator.click()
-        print("Lowest rated item is selected!")
-        driver.save_screenshot("C:\PythonClass/py-class-proj2-master/screenshots/lowest_item.png")
         sleep
 
 # Type Quantity

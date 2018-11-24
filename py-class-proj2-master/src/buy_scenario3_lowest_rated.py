@@ -27,27 +27,21 @@ driver.find_element_by_link_text(menu_subsection).click()
 
 # Find the highest rated item in the section and select the item. 
 items = driver.find_elements(By.CSS_SELECTOR, "[class = 'item product product-item']")
-
 items_rating = []
+
 dict1 = {}
 for item in items:
-        try:
-                item_name_locator = item.find_element_by_css_selector("[class = 'product-item-link']")
-                item_name = item_name_locator.text
-                print(item_name)
-                item_rating = item.find_element_by_css_selector("[class = 'rating-result']").get_attribute("title")
-                # Add keys(item rating) and values(item name) 
-                dict1[item_rating]=item_name
-                items_rating.append(item_rating)
-                print(item_rating)
-        except exceptions.NoSuchElementException:
-                print("---NOT RATED YET!---")
-
-current_max_number = items_rating[0]
-for number in items_rating:
-        if number > current_max_number:
-                current_max_number = number
-print("The highest rated item: ", current_max_number)
+    try:
+        item_name_locator = item.find_element_by_css_selector("[class = 'product-item-link']")
+        item_name = item_name_locator.text
+        print(item_name)
+        item_rating = item.find_element_by_css_selector("[class = 'rating-result']").get_attribute("title")
+        # Add keys(item rating) and values(item name) 
+        dict1[item_rating]=item_name
+        items_rating.append(item_rating)
+        print(item_rating)
+    except exceptions.NoSuchElementException:
+        print("---NOT RATED YET!---")
 
 current_min_number = items_rating[0]
 for number in items_rating:
@@ -55,20 +49,8 @@ for number in items_rating:
                 current_min_number = number
 print("The lowest rated item: ", current_min_number)
 
-if max(items_rating) == current_max_number:
-        max_item = max(items_rating)==current_max_number
-        print("Found the highest rated item :", max_item, "-", current_max_number, dict1[current_max_number] )
-        highest_rated_item_locator = driver.find_element(By.LINK_TEXT, dict1[current_max_number])
-        highest_rated_item_locator.click()
-        print("Highest rated item is selected!")
-        driver.save_screenshot("C:\PythonClass/py-class-proj2-master/screenshots/highest_item.png")
-        sleep
-
-driver.execute_script("window.history.go(-1)")
-
 if min(items_rating) == current_min_number:
-        min_item = min(items_rating)==current_min_number
-        print("Found the lowest rated item :", min_item, "-", current_min_number, dict1[current_min_number])
+        print("Found the lowest rated item : ", current_min_number, dict1[current_min_number])
         lowest_rated_item_locator = driver.find_element(By.LINK_TEXT, dict1[current_min_number])
         lowest_rated_item_locator.click()
         print("Lowest rated item is selected!")
