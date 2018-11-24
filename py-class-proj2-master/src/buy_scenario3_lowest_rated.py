@@ -27,8 +27,8 @@ driver.find_element_by_link_text(menu_subsection).click()
 
 # Find the highest rated item in the section and select the item. 
 items = driver.find_elements(By.CSS_SELECTOR, "[class = 'item product product-item']")
-items_rating = []
 
+items_rating = []
 dict1 = {}
 for item in items:
     try:
