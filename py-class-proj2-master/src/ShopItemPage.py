@@ -174,21 +174,6 @@ class ShopItemPage(WebDriverContainer):
             sizes.append(size_option.get_attribute(self.__title_attr__))
 
         return sizes
-    
-    def find_highest_rated_item(self):
-        item_rated = []
-        available_item = self._try_find_elements("[class = 'item product product-item']")
-        for item in available_item:
-            item_rating = item.__item_rating_locator
-            item_rated.append(item_rating)
-            highest_rated_item = max(item_rated).get_attribute("class")
-            print(highest_rated_item)
-        return highest_rated_item
-        
-    def click_highest_rated_item(self):
-            self.find_highest_rated_item().click()
-            
-                #self._try_find_element("[class = 'product-item-info']").click()
 
     def pick_color(self, color):
         selected_color_option = filter_by_attr(self.__page__.available_colors, self.__title_attr__, color)

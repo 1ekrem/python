@@ -54,7 +54,7 @@ if min(items_rating) == current_min_number:
         lowest_rated_item_locator = driver.find_element(By.LINK_TEXT, dict1[current_min_number])
         lowest_rated_item_locator.click()
         print("Lowest rated item is selected!")
-        driver.save_screenshot("C:\PythonClass/py-class-proj2-master/screenshots/lowest_item.png")
+        driver.save_screenshot("C:/PythonClass/py-class-proj2-master/screenshots/lowest_item.png")
         sleep
 
 # Type Quantity
