@@ -8,7 +8,7 @@ from utils import stringify_links, filter_by_text
 import util_excel as utex
 
 # create a WebDriver instance
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(executable_path = "./web_drivers/chromedriver.exe")
 
 #Navigation Manager
 shop = ShopTester(driver)
