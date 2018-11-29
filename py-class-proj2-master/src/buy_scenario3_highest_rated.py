@@ -4,6 +4,7 @@ import logger
 import time
 import random
 from selenium.common import exceptions
+import unittest
 
 from ShopTester import ShopTester
 from utils import stringify_links, filter_by_text
@@ -40,6 +41,7 @@ for item in items:
                 dict1[item_rating]=item_name
                 items_rating.append(item_rating)
                 print(item_rating)
+                logger.log(item_rating, item_name)
         except exceptions.NoSuchElementException:
                 print("---NOT RATED YET!---")
 
@@ -48,13 +50,14 @@ for number in items_rating:
         if number > current_max_number:
                 current_max_number = number
 print("The highest rated item: ", current_max_number)
+logger.log("The highest rated item: ", current_max_number)
 
 if max(items_rating) == current_max_number:
         print("Found the highest rated item : ", current_max_number, dict1[current_max_number] )
         highest_rated_item_locator = driver.find_element(By.LINK_TEXT, dict1[current_max_number])
         highest_rated_item_locator.click()
         print("Highest rated item is selected!")
-        driver.save_screenshot("C:\PythonClass/py-class-proj2-master/screenshots/highest_item.png")
+        driver.save_screenshot("C:/PythonClass/py-class-proj2-master/screenshots/highest_item.png")
         sleep
 
 # #Select Color

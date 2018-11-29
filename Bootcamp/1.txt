@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="1" time="0.079"><testcase classname="Bootcamp.Exercises.test_assert2" file="Bootcamp\Exercises\test_assert2.py" line="0" name="test_set_comparison" time="0.003997087478637695"><failure message="AssertionError: assert {&apos;0&apos;, &apos;1&apos;, &apos;3&apos;, &apos;8&apos;} == {&apos;0&apos;, &apos;3&apos;, &apos;5&apos;, &apos;8&apos;}
+  Extra items in the left set:
+  &apos;1&apos;
+  Extra items in the right set:
+  &apos;5&apos;
+  Use -v to get the full diff">def test_set_comparison():
+        set1 = set(&quot;1308&quot;)
+        set2 = set(&quot;8035&quot;)
+&gt;       assert set1 == set2 is True
+E       AssertionError: assert {&apos;0&apos;, &apos;1&apos;, &apos;3&apos;, &apos;8&apos;} == {&apos;0&apos;, &apos;3&apos;, &apos;5&apos;, &apos;8&apos;}
+E         Extra items in the left set:
+E         &apos;1&apos;
+E         Extra items in the right set:
+E         &apos;5&apos;
+E         Use -v to get the full diff
+
+Bootcamp\Exercises\test_assert2.py:4: AssertionError</failure></testcase></testsuite>
