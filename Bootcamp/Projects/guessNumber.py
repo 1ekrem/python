@@ -9,7 +9,7 @@ guess=0
 
 while guess != answer:
     guess=int(input())
-    if guess=0:
+    if guess==0:
         break
     if guess > answer:
         print("Guess lower")
@@ -17,3 +17,6 @@ while guess != answer:
         print("Guess higher")
     else:
         print("Well done. The anwer is {}".format(answer))
+
+
+
