@@ -17,8 +17,8 @@ driver.maximize_window()
 
 sleep = time.sleep(5)
 
-baseURL = "http://magento2-demo.nexcess.net/"
-driver.get(baseURL)
+duyguURL = "http://magento2-demo.nexcess.net/"
+driver.get(duyguURL)
 
 menu_section = "What's New"
 driver.find_element_by_link_text(menu_section).click()
