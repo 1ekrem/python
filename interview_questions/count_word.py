@@ -9,4 +9,7 @@ for i in word:
         count1 += 1
     elif i == word2:
         count2 += 1
-print('Count of {}: '.format(word1),count1, '\n' 'Count of {}: '.format(word2), count2)
+print('Count of {}: '.format(word1), count1, '\n' 'Count of {}: '.format(word2), count2)
+
+
+
