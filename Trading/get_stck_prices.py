@@ -6,14 +6,15 @@ import pandas_datareader.data as data
 
 style.use('ggplot')
 
-ticker = 'TSLA'
+ticker = 'BA'
+
 data_source = 'yahoo'
-start = dt.datetime(2018, 1 ,1)
-end = dt.datetime(2019, 1 ,10)
+start = dt.datetime(2017, 1 ,1)
+end = dt.datetime(2020, 1 ,12)
 
 df= data.DataReader(ticker, data_source, start, end)
 
 #Store data into csv or xl
-df.to_csv('tsla.csv')
+df.to_csv('{}.csv'.format(ticker))
 
-print(df.tail(25))
+print(df.tail(5))
