@@ -4,9 +4,8 @@ from matplotlib import style
 import pandas as pd
 import pandas_datareader.data as data
 
-style.use('ggplot')
 
-ticker = 'BA'
+ticker = 'TRYUSD=X'
 
 data_source = 'yahoo'
 start = dt.datetime(2017, 1 ,1)
