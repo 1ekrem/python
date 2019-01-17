@@ -4,8 +4,7 @@ from matplotlib import style
 import pandas as pd
 import pandas_datareader.data as data
 
-
-ticker = 'TRYUSD=X'
+ticker = input(str("Enter ticker: "))
 
 data_source = 'yahoo'
 start = dt.datetime(2017, 1 ,1)
@@ -16,4 +15,5 @@ df= data.DataReader(ticker, data_source, start, end)
 #Store data into csv or xl
 df.to_csv('{}.csv'.format(ticker))
 
+print(ticker)
 print(df.tail(5))
