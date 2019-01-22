@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib import style
 import pandas as pd
 import pandas_datareader.data as data
+import os
 
 ticker = input(str("Enter ticker: "))
 
@@ -24,6 +25,8 @@ def tech_analysis():
     df['5ma'] = df['Adj Close'].rolling(window=5, min_periods=0).mean()
     df.tail(250).to_excel('C:\\PythonClass\\ta-ticker\\{}_SMAanalysis.xlsx'.format(ticker))
     print("Moving Averages are created!")
+    os.remove('C:\\PythonClass\\ta-ticker\\{}.csv'.format(ticker))
+    print("NOTE: Stock prices data file is removed!")
 
 get_stock_prices()
 tech_analysis()

@@ -1,5 +1,6 @@
 import openpyxl
 import time
+import os
 
 ticker = input(str("Enter ticker: "))
 today=time.strftime("%Y%m%d-%H%M")
@@ -34,5 +35,7 @@ def createAnalysis():
     pastingRange = pasteRange(1,2,13,251,temp_sheet,selectedRange)
     template.save("C:\\Users\\DELL\\Desktop\\Trade Analysis\\{}_TAanalysis.xlsx".format(ticker))
     print("Report is generated for {}! Please check your Desktop\Trade Analysis folder".format(ticker))
+    os.remove('C:\\PythonClass\\ta-ticker\\{}_SMAanalysis.xlsx'.format(ticker))
+    print("NOTE: Moving Averages file is removed! ta-ticker folder should be empty")
 
 createAnalysis()
