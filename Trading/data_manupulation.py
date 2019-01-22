@@ -23,12 +23,12 @@ RS_down = down_days.rolling(window).mean()
 rsi= 100-100/(1+RS_up/RS_down)
 df['RSI']=rsi
 
-#CCI
-# ndays=20
-# TP = (df['High'] + df['Low'] + df['Close']) / 3 
-# CCI = pd.Series((TP - df.rolling(TP, ndays).mean())) / (0.015*df.rolling_std(TP, ndays)), name = 'CCI') 
-# dataCCI = df.join(CCI) 
-# df['CCI-20']=dataCCI
+ndays=21
+TP = (df['High'] + df['Low'] + df['Close']) / 3 
+df['CCI'] = pd.Series((TP - TP.rolling(ndays).mean()) / (0.014 * TP.rolling(ndays).std()),name = 'CCI')
+
+
+
 
 print('TICKER:',ticker)
 print(df.tail(5))
