@@ -31,8 +31,10 @@ def pasteRange(startCol, startRow, endCol, endRow, sheetReceiving, copiedData):
 
 def createAnalysis():
     print("Processing...")
-    selectedRange = copyRange(1,2,15,251,sheet)
-    pastingRange = pasteRange(1,2,15,251,temp_sheet,selectedRange)
+    selectedRange = copyRange(1,2,13,251,sheet)
+    selectedRange2 = copyRange(14,2,15,251,sheet)
+    pastingRange = pasteRange(1,2,13,251,temp_sheet,selectedRange)
+    pastingRange2 = pasteRange(34,2,35,251,temp_sheet,selectedRange2)
     template.save("C:\\Users\\DELL\\Desktop\\Trade Analysis\\{}_TAanalysis.xlsx".format(ticker))
     print("Report is generated for {}! Please check your Desktop\Trade Analysis folder".format(ticker))
     os.remove('C:\\PythonClass\\ta-ticker\\{}_SMAanalysis.xlsx'.format(ticker))
