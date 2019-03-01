@@ -17,4 +17,3 @@ for i in range(0,n+1): #2 This loop handles how many rows
 
     print("\r") #7 end line after each row    
 
-
