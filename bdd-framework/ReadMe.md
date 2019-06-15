@@ -15,5 +15,3 @@ $ behave -f allure_behave.formatter:AllureFormatter -o %allure_result_folder% ./
 # This will generate JSON report to %allure_result_folder%. Then, to view HTML report you can use Allure Command line (plugins for Jenkins/TeamCity/Bamboo also available)
 
 $ allure serve %allure_result_folder%
-
-For more details about Allure report you can see the docs.
