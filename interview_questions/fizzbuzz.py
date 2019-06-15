@@ -10,4 +10,4 @@ for i in range(1,100+1):
     elif i%5==0:
         print(i,"-",b)
     else:
-        print(i,'--------')
+        print(i,'---CANNOT BE DIVIDED---')
