@@ -7,5 +7,5 @@ class Dog(Animal):
         print("Barking")
         
 
-obj = Dog()
-obj.speak()
+d = Dog()
+d.speak()

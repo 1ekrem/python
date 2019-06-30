@@ -26,7 +26,7 @@ org_tabs=['Home', 'Calendar','Contacts','Companies','Deals', 'Tasks', 'Cases',
 org_tabs2=[]
 
 # set file path
-filepath="C:/PythonClass/freecrm/testcases/left_tabs.xlsx"
+filepath="C:/PythonClass/freecrm/utilities/left_tabs.xlsx"
 # load the excel file 
 wb=load_workbook(filepath)
 # select active cells
