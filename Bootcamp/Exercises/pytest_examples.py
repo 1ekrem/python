@@ -20,3 +20,5 @@ def test_tc5():
 
 def test_tc6():
     assert 1 == 1
+
+#C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\Scripts
