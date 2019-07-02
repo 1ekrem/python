@@ -1,9 +1,0 @@
-__pycache__
-*.exe
-*.log
-
-# vs code rope plugin temp. files
-.vscode/.ropeproject
-
-# session related files: screenshots, logs
-sessions

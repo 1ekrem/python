@@ -7,7 +7,7 @@ from  utils import stringify_links, filter_by_text
 driver = webdriver.Chrome()
 crm = CrmTest(driver)
 
-# 1) load home page and retrieve section links
+# 1) load home page
 home_page = crm.load_home_page()
 home_page.screenshot("C:/PythonClass/freecrm/screenshots/homepage.png")
 
