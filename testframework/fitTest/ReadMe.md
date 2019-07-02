@@ -10,8 +10,8 @@ Execute the code being tested, capturing the output
 Compare the output with an expected result
 For this application, you’re testing sum(). There are many behaviors in sum() you could check, such as:
 
-1.Can it sum a list of whole numbers (integers)?
-1.Can it sum a tuple or set?
-1.Can it sum a list of floats?
-1.What happens when you provide it with a bad value, such as a single integer or a string?
-1.What happens when one of the values is negative?
+*Can it sum a list of whole numbers (integers)?
+*Can it sum a tuple or set?
+*Can it sum a list of floats?
+*What happens when you provide it with a bad value, such as a single integer or a string?
+*What happens when one of the values is negative
