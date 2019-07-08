@@ -50,8 +50,8 @@ web_tabs_set = [x for x in org_tabs if x not in s]
 
 if org_tabs2 == web_tabs_set: 
     assert(org_tabs2 == web_tabs_set)
-    print ("The webelements and values from excel are identical") 
+    print ("The Web Elements and values from excel are identical") 
 else : 
-    print ("The webelements and values from excel are not identical") 
+    print ("The Web Elements and values from excel are not identical") 
 
 driver.quit()
