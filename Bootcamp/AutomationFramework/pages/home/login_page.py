@@ -1,8 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from AutomationFramework.base.selenium_driver import SeleniumDriver
-from AutomationFramework.utilities.custom_logger import customLogger
+from Bootcamp.AutomationFramework.base.selenium_driver import SeleniumDriver
+from Bootcamp.AutomationFramework.utilities.custom_logger import customLogger
 import logging
+import sys 
+
+sys.path.append(".")
 
 class LoginPage(SeleniumDriver):
     

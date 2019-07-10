@@ -4,6 +4,7 @@ from selenium import webdriver
 
 import logger
 from ShopTester import ShopTester
+from HomePage import HomePage
 from utils import filter_by_text, stringify_links
 
 
@@ -19,8 +20,12 @@ class TestHomePageSections(unittest.TestCase):
     
     def test_if_section_link_available(self):
         # assert section_links has a section named "What's new"
+        home_page = self.__shop.load_home_page()
+        section_links = home_page.section_links
+        assert section_links
+
         section_name = "What's New"
-        section_link = filter_by_text(section_links, section_name)
+        section_link = filter_by_text(section_links, section_name) 
         assert section_link
 
         # 2) load the given section and retrieve item links

@@ -1,8 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from AutomationFramework.pages.home.login_page import LoginPage
+from Bootcamp.AutomationFramework.pages.home.login_page import LoginPage
 import unittest
 import pytest
+import sys 
+
+sys.path.append(".")
 
 class LoginTests(unittest.TestCase):
     baseUrl = "https://learn.letskodeit.com/"

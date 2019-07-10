@@ -3,8 +3,11 @@ from traceback import print_stack
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
-from AutomationFramework.utilities.custom_logger import customLogger
+from Bootcamp.AutomationFramework.utilities.custom_logger import customLogger
 import logging
+import sys 
+
+sys.path.append(".")
 
 class SeleniumDriver():
 
