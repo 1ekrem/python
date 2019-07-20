@@ -2,8 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 
-from LoginPage import LoginPage
-from WebDriverContainer import WebDriverContainer
+from freecrm.pages.LoginPage import LoginPage
+from freecrm.src.WebDriverContainer import WebDriverContainer
 
 class CrmTest(WebDriverContainer):
     _home_page_url = "https://freecrm.com/"

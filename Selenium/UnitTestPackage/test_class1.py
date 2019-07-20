@@ -1,4 +1,5 @@
 import unittest
+import HtmlTestRunner
 
 class TestClass1(unittest.TestCase):
 
@@ -27,4 +28,5 @@ class TestClass1(unittest.TestCase):
         print("-" * 30)
 
 if __name__ == '__main__' :
-    unittest.main(verbosity=0)
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="./reports"))
+

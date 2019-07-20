@@ -20,7 +20,7 @@ def setUp():
 
 def test_demo3_method_A(setUp):
     print("Running demo3 Method A")
-    a = 4
+    a = 5
     if a != 4:
         print("a is not equal to 4")
 

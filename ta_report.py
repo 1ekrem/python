@@ -20,7 +20,7 @@ def tech_analysis():
     df['200ma'] = df['Adj Close'].rolling(window=200, min_periods=0).mean()
     df['100ma'] = df['Adj Close'].rolling(window=100, min_periods=0).mean()
     df['50ma'] = df['Adj Close'].rolling(window=50, min_periods=0).mean()
-    df['15ma'] = df['Adj Close'].rolling(window=15, min_periods=0).mean()
+    df['20ma'] = df['Adj Close'].rolling(window=20, min_periods=0).mean()
     df['10ma'] = df['Adj Close'].rolling(window=10, min_periods=0).mean()
     df['5ma'] = df['Adj Close'].rolling(window=5, min_periods=0).mean()
     print("Moving Averages are created!")
