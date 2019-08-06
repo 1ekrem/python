@@ -5,18 +5,19 @@ from employee import Employee
 
 class TestEmployee(unittest.TestCase):
 
-    @classmethod
-    def setUpClass(cls):
-        print("setupClass")
+    # @classmethod
+    # def setUpClass(cls):
+    #     print("setupClass")
     
-    @classmethod
-    def tearDownClass(cls):
-        print("tearDownClass")
+    # @classmethod
+    # def tearDownClass(cls):
+    #     print("tearDownClass")
 
     def setUp(self):
         print("Setup")
         self.emp_1 = Employee("Ekrem", "Ersayin", 50000)
         self.emp_2 = Employee("John", "Brick", 60000)    
+    
     def tearDown(self):
         print('tearDown\n')
 
@@ -57,4 +58,4 @@ class TestEmployee(unittest.TestCase):
         self.assertEqual(self.emp_2.pay, 63000)
 
 if __name__ == "__main__":
-    unittest.main(verbosity=2 ,testRunner=HtmlTestRunner.HTMLTestRunner(output="./zunittest"))
+    unittest.main(verbosity=2 ,testRunner=HtmlTestRunner.HTMLTestRunner(output="./zunittest/htmlreports"))

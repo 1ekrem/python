@@ -24,7 +24,7 @@ class LoggerDemoConsole():
         #logging messages
         logger.debug('Debug Message')
         logger.info('info message')
-        logger.warn('warn message')
+        logger.warning('warn message')
         logger.error('error message')
         logger.critical('critical message')
 
