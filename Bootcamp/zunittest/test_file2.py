@@ -3,7 +3,7 @@ import HtmlTestRunner
 
 from employee import Employee
 
-class TestEmployee(unittest.TestCase):
+class TestEmployee2(unittest.TestCase):
 
     # @classmethod
     # def setUpClass(cls):
@@ -15,24 +15,24 @@ class TestEmployee(unittest.TestCase):
 
     def setUp(self):
         print("Setup")
-        self.emp_1 = Employee("Ekrem", "Ersayin", 50000)
-        self.emp_2 = Employee("John", "Brick", 60000)    
+        self.emp_1 = Employee("2Ekrem", "Ersayin", 50000)
+        self.emp_2 = Employee("2John", "Brick", 60000)    
     
     def tearDown(self):
         print('tearDown\n')
 
-    def test_email(self):
+    def test_email2(self):
         print("test_email")
-        self.assertEqual(self.emp_1.email, 'EkremErsayin@email.com')
-        self.assertEqual(self.emp_2.email, "JohnBrick@email.com")
+        self.assertEqual(self.emp_1.email, '2EkremErsayin@email.com')
+        self.assertEqual(self.emp_2.email, "2JohnBrick@email.com")
 
-        self.emp_1.fname = 'Kerem'
-        self.emp_2.fname = 'Jane'
+        self.emp_1.fname = '2Kerem'
+        self.emp_2.fname = '2Jane'
 
-        self.assertEqual(self.emp_1.email, "KeremErsayin@email.com")
-        self.assertEqual(self.emp_2.email, "JaneBrick@email.com")
+        self.assertEqual(self.emp_1.email, "2KeremErsayin@email.com")
+        self.assertEqual(self.emp_2.email, "2JaneBrick@email.com")
 
-    def test_fullname(self):
+    def test_fullname2(self):
         print("test_fullname")
         self.emp_1 = Employee("Ekrem","Ersayin", 50000)
         self.emp_2 = Employee("John", "Brick", 60000)
@@ -46,7 +46,7 @@ class TestEmployee(unittest.TestCase):
         self.assertEqual(self.emp_1.fullname, "Kerem Ersayin")
         self.assertEqual(self.emp_2.fullname, "Jane Brick")
 
-    def test_apply_raise(self):
+    def test_apply_raise2(self):
         print("test_apply_raise")
         self.emp_1 = Employee("Ekrem","Ersayin", 50000)
         self.emp_2 = Employee("John", "Brick", 60000)

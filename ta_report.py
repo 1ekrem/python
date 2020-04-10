@@ -10,7 +10,7 @@ ticker = input(str("Enter ticker: "))
 def get_stock_prices():
     data_source = 'yahoo'
     start = dt.datetime(2018, 1 ,1)
-    end = dt.datetime(2020, 1 ,12)
+    end = dt.datetime.today()
     df= data.DataReader(ticker, data_source, start, end)
     df.to_csv('C:\\PythonClass\\ta-ticker\\{}.csv'.format(ticker))
     print("Stock prices of {} is pulled!".format(ticker))

@@ -27,5 +27,4 @@ emp1.displayCount()
 
 emp1.age = 7
 
-print(emp1.age)
-
+print(hasattr(emp1, 'age'))
