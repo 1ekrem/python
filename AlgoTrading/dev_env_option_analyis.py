@@ -47,7 +47,7 @@ options['Ticker'] = ticker
 options['EquityPrice'] = last_quote
 
 # Calculate breakeven equity price
-options['BreakevenPrice'] = (last_quote - options['ask'])
+options['BreakevenPrice'] = (last_quote - options['ask']) 
 
 # Calculate Covered Call Payoff percentage per contract
 #options['CoveredCallPayoff'] = np.where((options['ContractType'] == 'Call'), ((options['bid'] / last_quote)), '0').astype(float)
