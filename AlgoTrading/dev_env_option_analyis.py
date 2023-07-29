@@ -92,9 +92,7 @@ dataset2 = options[['contractSymbol'
                     ,'RunTime'
                     ]]
 
-dataset2 = dataset2[(
-    (dataset2['SellingPutPayoff'] >= 0.02) & (dataset2['SellingPutPayoff'] < 0.10)) | 
-    (dataset2['CoveredCallPayoff'] >= 0.02) & (dataset2['CoveredCallPayoff'] < 0.10)]
+dataset2 = dataset2[(dataset2['CoveredCallPayoff'] >= 0.02) & (dataset2['CoveredCallPayoff'] < 0.10)]
 
 print(dataset2.tail(15))
 
