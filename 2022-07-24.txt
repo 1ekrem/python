@@ -1,0 +1,2 @@
+Date,Ticker,Close,BuyLT,Sell,date
+2022-07-22,MCD,253.99000549316406,-,-,2022-07-24

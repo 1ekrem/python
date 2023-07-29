@@ -1,0 +1,3 @@
+hello
+my name is python
+it took me 6 months to get here but python is very fun.
