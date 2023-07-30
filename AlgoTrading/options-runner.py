@@ -173,8 +173,8 @@ def options_chain(ticker):
                             ]]    
     
     # #Filter out deep in the moneyC
-    # options_short = options_short[
-    #     ((options_short['StrikeDiffRatio'] > (-0.025)) & (options_short['StrikeDiffRatio'] < 0.10))]
+    options_short = options_short[
+        ((options_short['StrikeDiffRatio'] > (-0.025)) & (options_short['StrikeDiffRatio'] < 0.08))]
 
     # #Filter for 2% - 4% 
     # options_short = options_short[
@@ -184,7 +184,7 @@ def options_chain(ticker):
     #     ]
     
     # print(options_short)   
-    options_short.to_excel('C:\\Users\\Ekrem.Ersayin\\Documents\\pythonwork\\OptionsSummary\\{}_Option_Analysis2.xlsx'.format(ticker))
+    options_short.to_excel('C:\\Users\\ekrem\\Desktop\\Option Chain Analysis\\{}_Option_Analysis.xlsx'.format(ticker))
 
     return options
 
