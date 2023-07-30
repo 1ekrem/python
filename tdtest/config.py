@@ -1,4 +1,0 @@
-CONSUMER_KEY = 'FACFKMLJNKNRBQHZ57KPUF6LAGXG9UTQ'
-REDIRECT_URI = 'https://127.0.0.1'
-JSON_PATH = 'C:\\PythonClass\\tdtest\\td_state_2022.json'
-

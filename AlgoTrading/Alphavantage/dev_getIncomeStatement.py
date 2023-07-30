@@ -1,5 +1,6 @@
 import requests
 from alphaVentageKey import keyValue
+import json
 
 ticker = input("Enter Ticker: ")
 url = 'https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol={}&apikey=keyValue'.format(ticker)
@@ -18,7 +19,7 @@ for report in quarterly_reports:
     if report.get('fiscalDateEnding') > filtered_data.get('fiscalDateEnding'):
         filtered_data = report
 
-print(filtered_data)
+# print(filtered_data)
 
 # # Get Latest Report Option 2
 # latest_report = max(quarterly_reports, key=lambda report: report.get('fiscalDateEnding'))
@@ -42,8 +43,10 @@ filtered_data_extracted = {'fiscalDateEnding': filtered_data.get('fiscalDateEndi
                             'CostMargin' : round(float(filtered_data.get('costOfRevenue')) / (float(filtered_data.get('totalRevenue'))),2)                                                        
                             }
                            
+formatted_data = json.dumps(filtered_data_extracted, indent=4)
 
-print(filtered_data_extracted)
+if filtered_data_extracted.get('CostMargin') < 0.25: 
+    print(formatted_data)
 
 # Fields to Capture
     #totalRevenue
