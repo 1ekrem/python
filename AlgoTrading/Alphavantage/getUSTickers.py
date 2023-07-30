@@ -1,7 +1,6 @@
 import requests
 import csv
 from alphaVentageKey import keyValue
-from usEquityMarketTickers import equityTickers
 from datetime import date
 
 CSV_URL = 'https://www.alphavantage.co/query?function=LISTING_STATUS&apikey=keyValue'
@@ -14,9 +13,9 @@ with requests.Session() as s:
     my_list = list(cr)
     print(my_list)
     
-    USMarketTickers = "C:\\Users\\Ekrem.Ersayin\\Documents\\pythonwork\\USTickers\\USMarketTicker-{}.csv".format(todayDate)
-    with open (USMarketTickers, 'w') as list_file:
-        for row in my_list:
-            row = row[0]
-            list_file.write(str(row) + '\n')
-            print(row)
+    # USMarketTickers = "C:\\PythonClass\\AlgoTrading\\Alphavantage\\USMarketTickers\\USMarketTicker-{}.csv".format(todayDate)
+    # with open (USMarketTickers, 'w') as list_file:
+    #     for row in my_list:
+    #         row = row[0]
+    #         list_file.write(str(row) + '\n')
+    #         # print(row)
