@@ -1,4 +1,4 @@
-from technicalAnalysisFunction import bulkRunner
+from ta_BulkRunner_Function import bulkRunner
 from NDX100 import NDX100
 from SPX import SPX
 
