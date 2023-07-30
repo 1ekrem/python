@@ -13,9 +13,9 @@ with requests.Session() as s:
     my_list = list(cr)
     print(my_list)
     
-    # USMarketTickers = "C:\\PythonClass\\AlgoTrading\\Alphavantage\\USMarketTickers\\USMarketTicker-{}.csv".format(todayDate)
-    # with open (USMarketTickers, 'w') as list_file:
-    #     for row in my_list:
-    #         row = row[0]
-    #         list_file.write(str(row) + '\n')
-    #         # print(row)
+    USMarketTickers = "C:\\PythonClass\\AlgoTrading\\Alphavantage\\USMarketTickers\\USMarketTicker-{}.csv".format(todayDate)
+    with open (USMarketTickers, 'w') as list_file:
+        for row in my_list:
+            row = row[0]
+            list_file.write(str(row) + '\n')
+            # print(row)
