@@ -23,13 +23,10 @@ def technical_analysis_report(ticker):
         start = dt.datetime(2018, 1 ,1)
         end = dt.datetime.today()
         ##df= data.DataReader(ticker, data_source, start, end)
-        df = yf.download(ticker, start, end)
-    except KeyError:
+        df = yf.download(ticker, start, end, progress= False,)
+    except IndexError:
         pass
     
-    except RemoteDataError:
-        print("{} not found".format(ticker))
-        pass
     #df.to_csv('C:\\PythonClass\\ta-ticker\\{}.csv'.format(ticker))
     #print("Stock prices of {} is pulled!".format(ticker))
     #df = pd.read_csv('C:\\PythonClass\\ta-ticker\\{}.csv'.format(ticker), parse_dates=True, index_col=0)

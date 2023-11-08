@@ -35,9 +35,13 @@ positions = ['PDD', 'GM']
 
 goldenList=[]
 
-for ticker in NDX100:
-    #breakout_finder(ticker, 2.5)
-    golden_zone_finder(ticker)
-    #technical_analysis_report(ticker)
-    #options_chain(ticker)
-    #run_financial_reports(ticker)
+for ticker in SPX:
+    try:
+        # breakout_finder(ticker, 5)
+        # golden_zone_finder(ticker)
+        technical_analysis_report(ticker)
+        #options_chain(ticker)
+        #run_financial_reports(ticker)
+    except IndexError:
+        pass
+    

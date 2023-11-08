@@ -22,7 +22,6 @@ def in_consolidation(df, percentange):
     
 def consolidation_range(df):
     last_15days = df[-15:]
-    print(last_15days)
 
     max_price = round(last_15days['Close'].max(),2)
     min_price = round(last_15days['Close'].min(),2)

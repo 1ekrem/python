@@ -39,17 +39,14 @@ def breakout_finder(ticker, perc):
         start = last_year_today
         end = today
         df = yf.download(ticker, start, end, progress = False)
-    except KeyError:
+    except IndexError:
         pass
-    
-    except RemoteDataError:
-        print("{} not found".format(ticker))
 
     if startegies.in_consolidation(df, percentange=perc):
         print("{} in consolidation".format(ticker))
     else:
         pass
-        print("{} Consolidation Range:".format(ticker), startegies.consolidation_range(df))
+        # print("{} Consolidation Range:".format(ticker), startegies.consolidation_range(df))
         #print("{} skipped".format(ticker))
         
 def golden_zone_finder(ticker):
@@ -60,12 +57,9 @@ def golden_zone_finder(ticker):
         data_source = 'yahoo'
         start = last_year_today
         end = today
-        df = yf.download(ticker, start, end, progress = False)
-    except KeyError:
+        df = yf.download(ticker, start, end, progress = False, show_errors = None)
+    except IndexError:
         pass
-    
-    except RemoteDataError:
-        print("{} not found".format(ticker))
 
     if startegies.fib_retracement(df):
         print("{} in Golden Zone".format(ticker))

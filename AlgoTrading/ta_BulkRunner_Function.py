@@ -24,7 +24,7 @@ def bulkRunner(ticker):
     #end = dt.datetime(2022, 2 ,14)
     end = today
     try:
-        df= yf.download(ticker, start, end, progress=False, show_errors=False)
+        df= yf.download(ticker, start, end, progress=False)
     except IndexError:
         pass
     
@@ -53,7 +53,7 @@ def bulkRunner(ticker):
     df['volumePriceTrend'] = round(ta.volume.volume_price_trend(df['Close'],df['Volume']),2)
     df['VWAP'] = ta.volume.volume_weighted_average_price(df['High'],df['Low'],df['Close'],df['Volume'])
     df['MarketPressure'] = round(ta.volume.force_index(df['Close'],df['Volume'])/100,2)
-
+    df['AverageVolume'] =  df['Volume'].mean()
 
     # MOMENTUM INDICATORS
     df['RSI'] = ta.momentum.rsi(df['Close'])
@@ -88,9 +88,9 @@ def bulkRunner(ticker):
     df['VWAPStatus'] = np.where(df['VWAP'] > df['Close'], 'WVAP > Price', 'Price > WVAP')
 
 
-    #Signals
+    #Signals (df['AverageVolume'] > '500000')
     # df['BuyLT'] = np.where((df['5ma'] < df['10ma']) & (df['5ma'] < df['20ma']) & (df['10ma'] < df['20ma']) & (df['RSI'] < 35), 'BUY', '-')
-    df['Buy'] = np.where((df['5ma'] < df['10ma']) & (df['5ma'] < df['20ma']) & (df['10ma'] < df['20ma']) & (df['RSIST'] < 35), 'BUY', '-')
+    df['Buy'] = np.where((df['5ma'] < df['10ma']) & (df['5ma'] < df['20ma']) & (df['10ma'] < df['20ma']) & (df['RSIST'] < 35), 'BUY',  '-')
     df['Sell'] = np.where((df['5ma'] > df['10ma']) & (df['10ma'] > df['20ma']) & (df['RSI'] > 75), 'SELL', '-')
     
 

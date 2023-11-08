@@ -14,7 +14,7 @@ file_path = 'C:\\Users\\Ekrem.Ersayin\\Documents\\pythonwork\\USTickers\\USMarke
 #         except IndexError:
 #             pass    
 
-for ticker in NDX100:
+for ticker in 'TSLA':
     try:
         bulkRunner(ticker)
     except IndexError:

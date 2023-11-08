@@ -11,7 +11,7 @@ def consolidationRangeFinder (ticker):
     data_source = 'yahoo'
     start = last_year_today
     end = today
-    df = yf.download(ticker, start, end, progress=False)
+    df = yf.download(ticker, start, end, progress=True)
             
     last_15days = df[-20:]
 
@@ -20,12 +20,12 @@ def consolidationRangeFinder (ticker):
 
     delta_perc = round((max_price - min_price) / min_price,2)
     
-    if delta_perc <0.03:
-        print(ticker)
+    # if delta_perc <0.03:
+    #     print(ticker)
     
 
-for ticker in SPX:
-    consolidationRangeFinder(ticker)
+# for ticker in SPX:
+#     consolidationRangeFinder(ticker)
 
     
 
