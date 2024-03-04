@@ -11,9 +11,10 @@ def options_chain(tk, expiry):
     # Get options exp
     options = pd.DataFrame()
     opt = tk.option_chain(expiry.strip())
-    opt = pd.DataFrame().append(opt.calls).append(opt.puts)
+    opt = pd.DataFrame()._append(opt.calls)._append(opt.puts)
+    # opt = pd.concat([opt.calls, opt.puts], ignore_index=True)
     opt['expirationDate'] = expiry
-    options = options.append(opt, ignore_index=True)
+    options = options._append(opt, ignore_index=True)
     
     # Add 1 day to get the correct expiration date
     options['expirationDate'] = pd.to_datetime(options['expirationDate']) + datetime.timedelta(days = 1)
@@ -99,7 +100,7 @@ def main():
     # total = {}
     # for i in range(len(flat_strikes)):
     #     if flat_strikes[i] not in total: total[flat_strikes[i]] = losses[i]
-    #     else: total[flat_strikes[i]] += losses[i]
+    #     else: total[flat_strikes[i]] += losses[i]t
             
     
     # # plot

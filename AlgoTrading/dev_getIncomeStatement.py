@@ -1,6 +1,6 @@
 import requests
 from alphaVentageKey import keyValue
-import json
+from pushover import pushNotificationSender
 
 ticker = input("Enter Ticker: ")
 url = 'https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol={}&apikey=keyValue'.format(ticker)
@@ -19,7 +19,7 @@ for report in quarterly_reports:
     if report.get('fiscalDateEnding') > filtered_data.get('fiscalDateEnding'):
         filtered_data = report
 
-# print(filtered_data)
+print(filtered_data)
 
 # # Get Latest Report Option 2
 # latest_report = max(quarterly_reports, key=lambda report: report.get('fiscalDateEnding'))
@@ -31,7 +31,9 @@ for report in quarterly_reports:
 #print(filtered_data)
 
 # # Extract required fields from filtered data and show values in millions
-filtered_data_extracted = {'fiscalDateEnding': filtered_data.get('fiscalDateEnding'),
+filtered_data_extracted = {'ticker': ticker,
+                           'statementType': 'Income Statement',
+                            'fiscalDateEnding': filtered_data.get('fiscalDateEnding'),
                             'reportedCurrency' : filtered_data.get('reportedCurrency'),
                             'totalRevenue' : filtered_data.get('totalRevenue'),
                             'costOfRevenue' : filtered_data.get('costOfRevenue'),                            
@@ -40,13 +42,12 @@ filtered_data_extracted = {'fiscalDateEnding': filtered_data.get('fiscalDateEndi
                             'commonStockSharesOutstanding' : filtered_data.get('commonStockSharesOutstanding'),
                             'OperatingMargin' : round(float(filtered_data.get('operatingIncome')) / (float(filtered_data.get('totalRevenue'))),2),
                             'ProfitMargin' : round(float(filtered_data.get('netIncome')) / (float(filtered_data.get('totalRevenue'))),2),
-                            'CostMargin' : round(float(filtered_data.get('costOfRevenue')) / (float(filtered_data.get('totalRevenue'))),2)                                                        
+                            'CostOfRevenue' : round(float(filtered_data.get('costOfRevenue')) / (float(filtered_data.get('totalRevenue'))),2)                                                        
                             }
                            
-formatted_data = json.dumps(filtered_data_extracted, indent=4)
 
-# if filtered_data_extracted.get('CostMargin') < 0.25: 
-print(formatted_data)
+print(filtered_data_extracted)
+# pushNotificationSender(filtered_data_extracted)
 
 # Fields to Capture
     #totalRevenue
@@ -65,4 +66,4 @@ print(formatted_data)
     #(netIncome/totalRevenue) / 100
 
 #Calculate Cost Margin
-    #(costOfRevenue/totalRevenue) / 100amd
+    #(costOfRevenue/totalRevenue) / 100

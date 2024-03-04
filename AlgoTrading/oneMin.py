@@ -42,7 +42,7 @@ def bulkRunner(ticker):
     start = datetime.datetime.now() - datetime.timedelta(days=5)  # 7 days ago
     end = datetime.datetime.now()
     try:
-        df= yf.download(ticker, start, end, progress=False, show_errors=False, interval="1m")
+        df= yf.download(ticker, start, end, progress=False, interval="1m")
     except IndexError:
         pass
     

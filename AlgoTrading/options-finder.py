@@ -6,7 +6,7 @@ from datetime import date
 from datetime import datetime as dt
 import maxPain
 
-def options_chain(ticker, requestedStrike, contractType):
+def options_chain(ticker):
     
     # Get today's year value
     this_year = str(date.today().year)
@@ -21,6 +21,7 @@ def options_chain(ticker, requestedStrike, contractType):
 
     # Expiration dates
     exps = tk.options
+    # print(exps)
 
     # Get options for each expiration
     options = pd.DataFrame()
@@ -103,10 +104,9 @@ def options_chain(ticker, requestedStrike, contractType):
     # Calculate Strike Diff
     options['StrikeDiffRatio'] = (options['strike'] - last_quote) / options['strike']
 
-
-
     #Run Timestamp
     options['RunTime'] = dt.now().strftime("%Y-%m-%d %H:%M")
+
    
     # Drop unnecessary and meaningless columns
     #options = options.drop(columns = ['contractSize', 'currency'])
@@ -176,31 +176,32 @@ def options_chain(ticker, requestedStrike, contractType):
     # options_short = options_short[
     #     ((options_short['StrikeDiffRatio'] > (-0.025)) & (options_short['StrikeDiffRatio'] < 0.10))]
 
-    # Filter for 2% - 4% 
+    #Filter for 2% - 4% 
     # options_short = options_short[
     #     ((options_short['SellingPutPayoff'] >= 0.00) & (options_short['SellingPutPayoff'] < 0.05)) | 
     #     ((options_short['CoveredCallPremPayoff'] >= 0.00) & (options_short['CoveredCallPremPayoff'] < 0.05))
     #     ]
 
-    #Filter Earliest DTE and Strike
-    earliest_expiry_date = options['expirationDate'].min()
-    options_short = options[(options['expirationDate'] == earliest_expiry_date) & (options['strike'] == requestedStrike) & (options['ContractType'] == contractType) ]
-
-    
-    
-
-    # pa_opts = options_short[
+    #Praveen's Contract Finder
+    # pa_options_finder = options_short[
     #         (((options_short['EquityPrice'] * 0.95) < options_short['strike']) &
     #             (options_short['strike'] < (options_short['EquityPrice'] * 1.05))) &
     #                 ((options_short['CoveredCallPremPayoff'] > 0.00) | (options_short['SellingPutPayoff'] > 0.00)) &
     #                         (options_short['dte'] < 21)
     #     ]
-       
+
+    #Praveen's Contract Finder
+    options_finder = options_short[
+            (((options_short['EquityPrice'] * 0.95) < options_short['strike']) &
+                (options_short['strike'] < (options_short['EquityPrice'] * 1.05))) &
+                    ((options_short['CoveredCallPremPayoff'] > 0.00) | (options_short['SellingPutPayoff'] > 0.00)) &
+                            (options_short['dte'] < 21)
+        ]       
 
     # print(options_short)   
     options_short.to_excel('C:\\Users\\Ekrem.Ersayin\\Documents\\pythonwork\\OptionsSummary\\{}_Option_Analysis2.xlsx'.format(ticker))
 
-    return options_short
+    return options
 
 
-print(options_chain(input("Enter ticker: "), 4560, "Call").tail(10))
+print(options_chain(input("Enter ticker: ")).tail(10))
